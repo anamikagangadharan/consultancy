@@ -1,0 +1,36 @@
+.container{
+ 
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 2% 6%;
+    display: flex;
+    justify-content: center;
+  
+}
+.widthwrap{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    max-width: 1440px;
+
+}
+.left{
+   /* width: 50%; */
+
+}
+.right{
+   /* width: 50%; */
+}
+.rightlist{
+   
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.rightlist>li{
+    list-style: none;
+}
