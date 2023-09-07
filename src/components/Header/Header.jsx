@@ -1,11 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import css from "./Header.module.css"
 import Logo from "../../assets/consultancy-logo.svg"
 
 const Header = () => {
+
+    const [state,setState]=useState(false)
+
+    const scrollDown=()=>{
+
+        window.scrollY>100? setState(true) :setState(false)
+       
+    }
+    window.addEventListener('scroll',scrollDown)
   return (
-    <div className={css.container}> 
-    <div className={css.widthwrap}> 
+    <div className={ state? css.container1 : css.container}> 
+    <div className={css.wrap}> 
         <div className={css.left}>
             <img src={Logo} alt="" />
         </div>

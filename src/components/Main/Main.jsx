@@ -4,6 +4,7 @@ import Main1 from "../../assets/main1.svg"
 const Main = () => {
   return (
     <div className={css.container}>
+        <div className={css.wrap}>
         <div className={css.left}>
             <div className={css.lediv1}>
                 <span>
@@ -38,7 +39,7 @@ const Main = () => {
             <h1>gjgchjgchfxcfgxg</h1>
         </div> */}
        
-      
+       </div>
     </div>
   )
 }
