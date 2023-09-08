@@ -101,6 +101,7 @@ background: var(--Linear, linear-gradient(90deg, #D95DB0 0%, #3344DC 100%));
 .d4left{
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 .d4left>:nth-child(1){
     color: #FFE2CD;

@@ -1,0 +1,127 @@
+.container{
+    width: 100%;
+}
+.wrap{
+    width: 100%;
+    max-width: 1440px;
+    padding: 6% 6%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 4rem; */
+}
+.leftcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 2rem;
+}
+.left{
+    display: flex;
+}
+.left1>img{
+    width: 138px;
+    height: 40px;
+}
+.left2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.left2>:nth-child(1){
+    color: #B3B3B3;
+font-family: K2D;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+text-transform: capitalize;
+}
+.left3icons{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.line1{
+    width: 41px;
+height: 1px;
+opacity: 0.12;
+background: #FFF;
+}
+
+.hzline{
+    width: 1px;
+height: 248px;
+opacity: 0.12;
+background: #FFF;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.middle1>:nth-child(1){
+    color: #B3B3B3;
+font-family: K2D;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 200% */
+}
+
+.lists{
+    display: flex;
+    gap: 1rem;
+}
+.listleft{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.listleft>span,.listright>span{
+    color: #707070;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+}
+.listright{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.right1>:nth-child(1){
+    color: #B3B3B3;
+font-family: K2D;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 200% */
+}
+.right2{
+    display: flex;
+    flex-direction: column;
+}
+.right2>span{
+    color: #707070;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+}
+.last{
+    width: 30px;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+ 
+}

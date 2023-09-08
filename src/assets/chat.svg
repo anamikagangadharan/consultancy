@@ -1,0 +1,18 @@
+<svg width="63" height="60" viewBox="0 0 63 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 34388">
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M33.2383 59.5C49.6688 59.5 62.9883 46.1805 62.9883 29.75C62.9883 13.3195 49.6688 0 33.2383 0C16.8078 0 3.48828 13.3195 3.48828 29.75C3.48828 34.2058 4.46785 38.4328 6.22338 42.2273L0.488281 55.5L15.1504 53.3716C20.1627 57.2155 26.4337 59.5 33.2383 59.5Z" fill="url(#paint0_linear_1145_5974)"/>
+<g id="Group 34384">
+<g id="Group 34397">
+<path id="Vector" d="M29.062 38.0667H28.4655C23.6927 38.0667 21.3064 36.8735 21.3064 30.9077V24.9418C21.3064 20.1691 23.6927 17.7827 28.4655 17.7827H38.0109C42.7836 17.7827 45.1699 20.1691 45.1699 24.9418V30.9077C45.1699 35.6804 42.7836 38.0667 38.0109 38.0667H37.4143C37.0444 38.0667 36.6864 38.2457 36.4597 38.544L34.67 40.9303C33.8825 41.9803 32.5938 41.9803 31.8063 40.9303L30.0166 38.544C29.8257 38.2815 29.3842 38.0667 29.062 38.0667Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M27.2722 24.9419H39.204" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M27.2722 30.9077H34.4313" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1145_5974" x1="0.488281" y1="29.75" x2="62.9883" y2="29.75" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D95DB0"/>
+<stop offset="1" stop-color="#3344DC"/>
+</linearGradient>
+</defs>
+</svg>
