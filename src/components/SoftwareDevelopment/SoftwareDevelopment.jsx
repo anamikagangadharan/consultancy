@@ -2,6 +2,12 @@ import React from 'react'
 import css from "./SoftwareDevelopment.module.css"
 
 import D1 from "../../assets/d1.svg"
+import D2 from "../../assets/d2.svg"
+import D3 from "../../assets/d3.svg"
+import D4 from "../../assets/d4.svg"
+import D5 from "../../assets/d5.svg"
+import D6 from "../../assets/d6.svg"
+import D7 from "../../assets/d7.svg"
 
 const SoftwareDevelopment = () => {
   return (
@@ -36,40 +42,36 @@ const SoftwareDevelopment = () => {
                         <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
                     </div>
                     <div className={css.box}>
-                        <img src={D1} alt="" />
+                        <img src={D2} alt="" />
                         <span>Custom Software Mastery</span>
                         <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
                     </div>
                     <div className={css.box}>
-                        <img src={D1} alt="" />
+                        <img src={D3} alt="" />
                         <span>Custom Software Mastery</span>
                         <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
                     </div>
                     <div className={css.box}>
-                        <img src={D1} alt="" />
+                        <img src={D4} alt="" />
                         <span>Custom Software Mastery</span>
                         <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
                     </div>
                     <div className={css.box}>
-                        <img src={D1} alt="" />
+                        <img src={D5} alt="" />
                         <span>Custom Software Mastery</span>
                         <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
                     </div>
                     <div className={css.box}>
-                        <img src={D1} alt="" />
+                        <img src={D6} alt="" />
                         <span>Custom Software Mastery</span>
                         <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
                     </div>
                     <div className={css.box}>
-                        <img src={D1} alt="" />
+                        <img src={D7} alt="" />
                         <span>Custom Software Mastery</span>
                         <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
                     </div>
-                    <div className={css.box}>
-                        <img src={D1} alt="" />
-                        <span>Custom Software Mastery</span>
-                        <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
-                    </div>
+                    
 
                 </div>
             </div>
