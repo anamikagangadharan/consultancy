@@ -79,6 +79,23 @@ const SoftwareDevelopment = () => {
 
             </div>
             </div>
+
+            <div className={css.container3}>
+                <div className={css.wrap3}>
+
+
+                    <div className={css.div3}>
+                        <div className={css.div3head}>
+                           <span>The Best Solutions For Business</span>
+                           <span>Software Development</span>
+                        </div>
+
+                        <div className={css.div3content}>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
       
     </div>
   )
