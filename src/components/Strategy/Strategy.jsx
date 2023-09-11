@@ -36,7 +36,7 @@ const Strategy = () => {
             </div>
 
             <div className={css.div2right}>
-                <span> Invicious Team Our Creative works </span>
+                <span> Invicious Team Our Creative Works </span>
 
                 <span className={css.spans}> At Invicious, our creative team is your strategic partner in the digital realm. With expertise in UI/UX design, IT consultancy, web development, mobile app development, and digital branding, we fuse innovation and technology to elevate your digital presence.</span>
            
