@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About/About';
 import Approach from './components/Approach/Approach';
 import Deliver from './components/Deliver/Deliver';
+import Experts from './components/Experts/Experts';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
@@ -13,13 +14,14 @@ function App() {
   return (
     <div className="App"> 
       <Header/>
-      {/* <Main/>
+      <Main/>
       <About/>
+      <Experts/>
       <Approach/>
       <Strategy/>
       <Deliver/>
-      <Footer/> */}
-      <SoftwareDevelopment/> 
+      <Footer/>
+      {/* <SoftwareDevelopment/>  */}
     </div>
   );
 }
