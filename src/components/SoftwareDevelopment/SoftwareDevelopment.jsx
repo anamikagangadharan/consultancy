@@ -41,42 +41,54 @@ const SoftwareDevelopment = () => {
                 </div>
 
                 <div className={css.div2contents}>
-
+                    <div className={css.div2contentstop}>
                     <div className={css.box}>
                         <img src={D1} alt="" />
                         <span>Custom Software Mastery</span>
-                        <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
+                       <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
                     </div>
                     <div className={css.box}>
                         <img src={D2} alt="" />
-                        <span>Custom Software Mastery</span>
-                        <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
+                        <span>Product Innovation</span>
+                       <span>Got a game-changing software idea? We turn concepts into market-ready reality with user-friendly interfaces and robust functionality.</span>
                     </div>
                     <div className={css.box}>
                         <img src={D3} alt="" />
-                        <span>Custom Software Mastery</span>
-                        <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
+                        <span>Reliable Support and Maintenance</span>
+                       <span>We know software evolves. Our support and maintenance keep your software current, secure, and running smoothly, freeing you to focus on your core business.</span>
                     </div>
                     <div className={css.box}>
                         <img src={D4} alt="" />
-                        <span>Custom Software Mastery</span>
-                        <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
+                        <span>Global Outsourcing Excellence</span>
+                       <span>Utilize our offshore development services for cost-effective, high-quality software solutions, lowering your operational expenses.</span>
                     </div>
-                    <div className={css.box}>
+
+                    </div>
+
+
+                    <div className={css.div2contentbottom}>
+                      
+                    <div className={css.box2}>
                         <img src={D5} alt="" />
-                        <span>Custom Software Mastery</span>
-                        <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
+                        <span>Cutting-Edge Technology</span>
+                       <span>We lead in tech trends, with developers versed in the latest languages, frameworks, and methods for top-tier 
+solutions.</span>
                     </div>
-                    <div className={css.box}>
+                    <div className={css.box2}>
                         <img src={D6} alt="" />
-                        <span>Custom Software Mastery</span>
-                        <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
+                        <span>Data Security</span>
+                       <span>Your data's security is our paramount priority. We enforce stringent measures, meeting industry standards and regulations.</span>
                     </div>
-                    <div className={css.box}>
+                    <div className={css.box2}>
                         <img src={D7} alt="" />
-                        <span>Custom Software Mastery</span>
-                        <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
+                        <span>Proven Success</span>
+                       <span>Our track record shines. We've delivered software solutions across diverse industries, fueling business success in the digital world.</span>
                     </div>
+
+                    </div>
+
+                   
+                   
                     
 
                 </div>
