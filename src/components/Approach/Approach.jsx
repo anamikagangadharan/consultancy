@@ -2,6 +2,12 @@ import React from "react";
 import css from "./Approach.module.css";
 import Value from "../../assets/testbox.svg";
 import Value2 from "../../assets/testbox2.svg";
+import A1 from "../../assets/a1.svg"
+import A2 from "../../assets/a2.svg"
+import A3 from "../../assets/a3.svg"
+import A4 from "../../assets/a4.svg"
+import A5 from "../../assets/a5.svg"
+import A6 from "../../assets/a6.svg"
 
 const Approach = () => {
   return (
@@ -19,7 +25,7 @@ const Approach = () => {
           <div className={css.bset}>
             <div className={css.box}>
               <div className={css.boxleft}>
-                <img src={Value2} alt="" />
+                <img src={A1} alt="" />
               </div>
               <div className={css.boxright}>
                 <span>REQUIREMENT GATHERING</span>
@@ -28,15 +34,12 @@ const Approach = () => {
             </div>
             <div className={css.box}>
               <div className={css.boxleft}>
-                <img src={Value} alt="" />
+                <img src={A2} alt="" /> 
               </div>
               <div className={css.boxright}>
-                <span>Value for money</span>
+                <span>PLANNING</span>
                 <span>
-                  We believe in providing the best bang for your buck. Our
-                  services not only deliver top-notch results but also offer
-                  cost-effective solutions, maximizing your return on
-                  investment.
+                We develop a strategic plan, detailing project steps. Our roadmap ensures efficient resource allocation and timeline adherence.
                 </span>
               </div>
             </div>
@@ -46,24 +49,21 @@ const Approach = () => {
           <div className={css.bset}>
             <div className={css.box}>
               <div className={css.boxleft}>
-                <img src={Value2} alt="" />
+                <img src={A3} alt="" />
               </div>
               <div className={css.boxright}>
-                <span>REQUIREMENT GATHERING</span>
-                <span>Understanding your needs is our top priority. We meticulously document requirements, creating a robust software project base.</span>
+                <span>DESIGN</span>
+              <span>Our design phase centers on crafting visually engaging and user-friendly interfaces. Prioritizing user experience in every pixel.</span>
               </div>
             </div>
             <div className={css.box}>
               <div className={css.boxleft}>
-                <img src={Value} alt="" />
+                <img src={A4} alt="" />
               </div>
               <div className={css.boxright}>
-                <span>Value for money</span>
+                <span>DEVELOPMENT</span>
                 <span>
-                  We believe in providing the best bang for your buck. Our
-                  services not only deliver top-notch results but also offer
-                  cost-effective solutions, maximizing your return on
-                  investment.
+                Our development phase brings your project to life. We translate your ideas into clean, efficient, and functional code.
                 </span>
               </div>
             </div>
@@ -73,24 +73,21 @@ const Approach = () => {
           <div className={css.bset}>
             <div className={css.box}>
               <div className={css.boxleft}>
-                <img src={Value2} alt="" />
+                <img src={A5} alt="" />
               </div>
               <div className={css.boxright}>
-                <span>REQUIREMENT GATHERING</span>
-                <span>Understanding your needs is our top priority. We meticulously document requirements, creating a robust software project base.</span>
+                <span>TESTING</span>
+              <span>Our testing phase leaves no stone unturned. Stringent testing guarantees flawless and secure software performance.</span>
               </div>
             </div>
             <div className={css.box}>
               <div className={css.boxleft}>
-                <img src={Value} alt="" />
+                <img src={A6} alt="" />
               </div>
               <div className={css.boxright}>
-                <span>Value for money</span>
+                <span>DELIVERY AND MAINTENANCE</span>
                 <span>
-                  We believe in providing the best bang for your buck. Our
-                  services not only deliver top-notch results but also offer
-                  cost-effective solutions, maximizing your return on
-                  investment.
+                We deliver your software promptly and provide ongoing support. Our maintenance keeps your software in peak condition.
                 </span>
               </div>
             </div>

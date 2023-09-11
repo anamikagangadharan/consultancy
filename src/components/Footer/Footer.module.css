@@ -1,13 +1,22 @@
 .container{
     width: 100%;
+    padding: 2% 6%;
+    position: relative;
+    border-top: 1px solid rgb(41, 40, 40);
+    margin-top: 4rem;
 }
 .wrap{
     width: 100%;
     max-width: 1440px;
-    padding: 6% 6%;
+ 
+    display: flex;
+   flex-direction: column;
+   gap: 2rem;
+    /* gap: 4rem; */
+}
+.contain1{
     display: flex;
     justify-content: space-between;
-    /* gap: 4rem; */
 }
 .leftcontent{
     display: flex;
@@ -18,6 +27,8 @@
 }
 .left{
     display: flex;
+    gap: 2rem;
+    width: 24%;
 }
 .left1>img{
     width: 138px;
@@ -44,7 +55,7 @@ text-transform: capitalize;
 }
 
 .line1{
-    width: 41px;
+    width: 95%;
 height: 1px;
 opacity: 0.12;
 background: #FFF;
@@ -59,7 +70,10 @@ background: #FFF;
 .middle{
     display: flex;
     flex-direction: column;
+    gap: 1rem;
     align-items: flex-start;
+    width: 46%;
+    padding: 0 4%;
 }
 .middle1>:nth-child(1){
     color: #B3B3B3;
@@ -73,11 +87,14 @@ line-height: 40px; /* 200% */
 .lists{
     display: flex;
     gap: 1rem;
+    width: 100%;
+    justify-content: space-between;
 }
 .listleft{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    text-align: left;
 }
 .listleft>span,.listright>span{
     color: #707070;
@@ -91,12 +108,15 @@ line-height: 32px; /* 200% */
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    text-align: left;
 }
 
 .right{
     display: flex;
     flex-direction: column;
+    gap: 1rem;
     text-align: left;
+    width: 24%;
 }
 .right1>:nth-child(1){
     color: #B3B3B3;
@@ -119,9 +139,41 @@ font-weight: 400;
 line-height: 32px; /* 200% */
 }
 .last{
-    width: 30px;
+
     height: auto;
     display: flex;
     align-items: flex-end;
+    position: absolute;
+    right: 20px;
+    bottom: 140px;
  
+}
+.last>img{
+    width: 60px;
+    height: 60px;
+}
+.contain2{
+    display: flex;
+    flex-direction: column;
+}
+.lineb{
+    width: 100%;
+    height: 1px;
+opacity: 0.12;
+background: #FFF;
+}
+.copyright{
+    display: flex;
+    align-items: flex-start;
+    padding: 2% 0;
+}
+.copyright>:nth-child(1){
+    color: var(--white, #FFF);
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.32px;
+opacity: 0.4;
 }

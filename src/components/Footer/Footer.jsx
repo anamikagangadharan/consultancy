@@ -11,6 +11,8 @@ const Footer = () => {
     <div  className={css.container}>
         <div className={css.wrap}>
 
+            <div className={css.contain1}> 
+
             
             <div className={css.left}>
                 <div className={css.leftcontent}>  
@@ -49,14 +51,14 @@ Empowering Success.</span>
                 <div className={css.lists}>
                     <div className={css.listleft}>
                         <span>IT Consulting & Services</span>
-                        <span>IT Consulting & Services</span>
-                        <span>IT Consulting & Services</span>
-                        <span>IT Consulting & Services</span>
+                        <span>Software Development</span>
+                        <span>Mobile App Development</span>
+                        <span>Web Development</span>
                     </div>
                     <div className={css.listright}>
+                        <span>Digital Branding</span>
                         <span>UI/UX Design Service</span>
-                        <span>UI/UX Design Service</span>
-                        <span>UI/UX Design Service</span>
+                        <span>Application Services</span>
                     </div>
                 </div>
 
@@ -85,6 +87,14 @@ Empowering Success.</span>
             </div>
 
 
+        </div>
+
+        <div className={css.contain2}>
+            <div className={css.lineb}></div>
+            <div className={css.copyright}>
+                <span>Copyright © 2023 Invicious Consltancy Services | All Rights Reserved. </span>
+            </div>
+        </div>
         </div>
       
     </div>
