@@ -3,7 +3,7 @@ import css from "./Main.module.css"
 import Main1 from "../../assets/main1.svg"
 const Main = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='home'>
         <div className={css.wrap}>
         <div className={css.left}>
             <div className={css.lediv1}>

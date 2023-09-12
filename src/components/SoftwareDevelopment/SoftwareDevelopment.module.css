@@ -216,6 +216,7 @@ line-height: 42px; /* 233.333% */
     flex-direction: column;
     gap: 0.5rem;
     width: 50%;
+    /* animation: fadeInLeft 2s ease-in-out;  */
 }
 .oddsetcontent>:nth-child(1){
     color: #F07E38;
@@ -242,11 +243,39 @@ text-align: left;
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    /* animation: fadeInRight 2s ease-in-out;  */
 }
 .oddsetimage>img{
     width: 60%;
     height: auto;
+    
 }
+
+/* animations */
+
+@keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(300px);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+@keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-300px);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+/* animations */
+
+
+
 /* evenset */
 
 .evenset{
@@ -259,6 +288,7 @@ text-align: left;
     width: 50%;
     display: flex;
     justify-content: flex-start;
+    animation: fadeInLeft 2s ease-in-out; 
 }
 .evensetimage>img{
     width: 60%;
@@ -270,6 +300,7 @@ text-align: left;
     flex-direction: column;
     gap: 0.5rem;
     width: 50%;
+    animation: fadeInRight 2s ease-in-out; 
 }
 .evensetcontent>:nth-child(1){
     color: #F07E38;

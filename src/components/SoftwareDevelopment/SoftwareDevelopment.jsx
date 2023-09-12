@@ -1,5 +1,7 @@
 import React from 'react'
 import css from "./SoftwareDevelopment.module.css"
+
+import { motion } from "framer-motion";
 import Top from "../../assets/Top.svg"
 import Bottom from "../../assets/bottom.svg" 
 
@@ -16,6 +18,8 @@ import Set3 from "../../assets/set3.svg"
 import Set4 from "../../assets/set4.svg"
 
 const SoftwareDevelopment = () => {
+
+  
   return (
     <div className={css.container}>
       <div className={css.container1}>
@@ -111,21 +115,35 @@ solutions.</span>
                         <div className={css.div3content}>
 
                          {/* oddset */}
-                            <div className={css.oddset}>
-                                <div className={css.oddsetcontent}>
+                            <div className={css.oddset} id='csd'
+                            
+                             >
+                                <motion.div className={css.oddsetcontent}
+                                 initial={{ x: "-15rem" }}
+                                 whileInView={{ x: "0rem" }}
+                                
+                                 transition={{ duration: 1 }}
+                              
+                                 >
                                     <span>1.Custom Software Development</span>
                                     <span>Branding is the art of crafting a unique and memorable identity for your business or personal venture. It involves creating a distinct logo, name, and messaging that sets you apart from competitors and leaves a lasting impression on your audience. Effective branding builds trust, recognition, and loyalty among customers.</span>
-                                </div>
-                                <div className={css.oddsetimage}>
+                                </motion.div>
+                                < motion.div className={css.oddsetimage}
+                                    initial={{ x: "15rem" }}
+                                    whileInView={{ x: "0rem" }}
+                                   
+                                    transition={{ duration: 1 }}
+                                    
+                                >
                                     <img src={Set1} alt="" />
 
-                                </div>
+                                </motion.div>
                             </div>
                             {/* oddset */}
 
 
                           {/* evenset */}
-                            <div className={css.evenset}>
+                            <div className={css.evenset} id='spd'>
                                 <div className={css.evensetimage}>
                                     <img src={Set2} alt="" />
                                 </div>
@@ -138,7 +156,7 @@ solutions.</span>
                             {/* evenset */}
 
                              {/* oddset */}
-                             <div className={css.oddset}>
+                             <div className={css.oddset} id='ssm'>
                                 <div className={css.oddsetcontent}>
                                    <span>3.Software Support and Maintenance</span>
                                     <span>Content Marketing is the strategic creation and distribution of valuable, relevant, and engaging content to attract, engage, and retain a target audience. By delivering informative and entertaining content, businesses and individuals aim to build trust, authority, and brand loyalty. Content marketing is a powerful way to connect with your audience and drive desired actions.</span>
@@ -152,7 +170,7 @@ solutions.</span>
 
 
                               {/* evenset */}
-                              <div className={css.evenset}>
+                              <div className={css.evenset} id='sos'>
                                 <div className={css.evensetimage}>
                                     <img src={Set4} alt="" />
                                 </div>

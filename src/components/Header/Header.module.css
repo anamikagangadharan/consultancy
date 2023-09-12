@@ -62,12 +62,13 @@
     justify-content: space-between;
     gap: 2.4rem;
 }
-.rightlist>li, .serviceset>li{
+.rightlist>li, .serviceset>li, .rightlist>a{
     list-style: none;
     color: #E0E0E0;
 font-family: Nunito;
 font-size: 18px;
 font-weight: 400;
+text-decoration: none;
 }
 .serviceset{
     display: flex;
@@ -97,6 +98,11 @@ font-weight: 400;
     flex-direction: column;
     gap: 0.8rem;
     width: 33%;
+}
+.types>a{
+    text-decoration: none;
+    text-align: left;
+    
 }
 .typehead{
     font-size: 18px;

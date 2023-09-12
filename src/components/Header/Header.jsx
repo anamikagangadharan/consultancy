@@ -1,11 +1,14 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import css from "./Header.module.css"
 import Logo from "../../assets/consultancy-logo.svg"
 
 import Darrow from "../../assets/droparrow.svg"
 import Bars from "../../assets/bars.svg"
+import { HashLink } from 'react-router-hash-link'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
+   
 
     const mobile= window.innerWidth <=768 ? true : false ;
 
@@ -19,6 +22,22 @@ const Header = () => {
        
     }
     window.addEventListener('scroll',scrollDown)
+
+    useEffect(() => {
+        const handleHashChange = () => {
+          window.location.reload();
+        };
+    
+        // Listen for hash changes and trigger a reload
+        window.addEventListener('hashchange', handleHashChange);
+    
+        // Clean up the event listener when the component unmounts
+        return () => {
+          window.removeEventListener('hashchange', handleHashChange);
+        };
+      }, []);
+
+ 
   return (
     <div className={ state? css.container1 : css.container}> 
     <div className={css.wrap}> 
@@ -33,16 +52,16 @@ const Header = () => {
              
        
             <ul className={css.rightlist}>
-                <li>Home</li>
+             <HashLink to="/#home"> <li>Home</li> </HashLink>   
                 <li>About</li>
                 <div onClick={()=>setDrop(!drop)} className={css.serviceset}>  <li>Services</li>
                 <img src={Darrow} alt="" /> 
                 </div>
-                {drop && <div className={css.servicelist}>
+                {drop && <div onClick={()=>setDrop(false)} className={css.servicelist}>
                   <div className={css.stop}>
                   <div className={css.types}>
                         <span className={css.typehead}>Web Development</span>
-                        <span className={css.spans}>Static Website Development</span>
+                     <HashLink >  <span className={css.spans}>Static Website Development</span> </HashLink>  
                         <span className={css.spans}>Dynamic Website Development</span>
                         <span className={css.spans}>E-commerce and Web App Development</span>
                         <span className={css.spans}>Deployment Services</span>
@@ -72,11 +91,12 @@ const Header = () => {
                   </div>
 
                   <div className={css.sbottom}>
-                  <div className={css.types}>
-                        <span className={css.typehead}>Software Development</span>
-                        <span className={css.spans}>Custom Software Develpment</span>
-                        <span className={css.spans}>Software Support and Maintenance</span>
-                        <span className={css.spans}>Software Outsourcing Services</span>
+                  <div className={css.types}> 
+                     <span className={css.typehead}>Software Development</span>
+                     <HashLink  to="/swd/#csd">    <span  className={css.spans}>Custom Software Develpment</span>  </HashLink>  
+                     <HashLink to="/swd/#spd">    <span className={css.spans}>Software Product Develpment</span>  </HashLink>  
+                     <HashLink to="/swd/#ssm">    <span className={css.spans}>Software Support and Maintenance</span> </HashLink> 
+                     <HashLink to="/swd/#sos">   <span className={css.spans}>Software Outsourcing Services</span> </HashLink>
                     </div>
                  
                   <div className={css.types}>
