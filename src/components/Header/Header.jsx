@@ -40,12 +40,16 @@ const Header = () => {
                 </div>
                 {drop && <div className={css.servicelist}>
                   <div className={css.stop}>
-                    <div className={css.types}>
-                        <span className={css.typehead}>Software Development</span>
-                        <span className={css.spans}>Custom Software Develpment</span>
-                        <span className={css.spans}>Software Support and Maintenance</span>
-                        <span className={css.spans}>Software Outsourcing Services</span>
+                  <div className={css.types}>
+                        <span className={css.typehead}>Web Development</span>
+                        <span className={css.spans}>Static Website Development</span>
+                        <span className={css.spans}>Dynamic Website Development</span>
+                        <span className={css.spans}>E-commerce and Web App Development</span>
+                        <span className={css.spans}>Deployment Services</span>
+                        <span className={css.spans}>Shopify Solutions</span>
+                        <span className={css.spans}>WordPress</span>
                     </div>
+                  
                     <div className={css.types}>
                         <span className={css.typehead}>Digital Branding</span>
                         <span className={css.spans}>Branding</span>
@@ -69,14 +73,12 @@ const Header = () => {
 
                   <div className={css.sbottom}>
                   <div className={css.types}>
-                        <span className={css.typehead}>Web Development</span>
-                        <span className={css.spans}>Static Website Development</span>
-                        <span className={css.spans}>Dynamic Website Development</span>
-                        <span className={css.spans}>E-commerce and Web App Development</span>
-                        <span className={css.spans}>Deployment Services</span>
-                        <span className={css.spans}>Shopify Solutions</span>
-                        <span className={css.spans}>WordPress</span>
+                        <span className={css.typehead}>Software Development</span>
+                        <span className={css.spans}>Custom Software Develpment</span>
+                        <span className={css.spans}>Software Support and Maintenance</span>
+                        <span className={css.spans}>Software Outsourcing Services</span>
                     </div>
+                 
                   <div className={css.types}>
                         <span className={css.typehead}>IT Consulting & Services</span>
                         <span className={css.spans}>Application Maintenance</span>

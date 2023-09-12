@@ -95,7 +95,7 @@ font-weight: 400;
 .types{
     display: flex;
     flex-direction: column;
-    gap: 0.4rem;
+    gap: 0.8rem;
     width: 33%;
 }
 .typehead{
