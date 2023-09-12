@@ -25,33 +25,49 @@ const Experts = () => {
             <div className={css.div2}>
                 <div className={css.div2top}>
                     <div className={css.box}>
-                        <img src={E1} alt="" />
+                    <div className={css.circle}>
+                    <img src={E1} alt="" />
+                    </div>
                         <span>IT Consulting & Services</span>
                     </div>
                     <div className={css.box}>
-                        <img src={E2} alt="" />
+                    <div className={css.circle}>
+                    <img src={E2} alt="" />
+                    </div>
                         <span>Web Development</span>
                     </div>
                     <div className={css.box}>
-                        <img src={E3} alt="" />
+                    <div className={css.circle}>
+                    <img src={E3} alt="" />
+                    </div>
                         <span>Mobile App Development</span>
                     </div>
                     <div className={css.box}>
-                        <img src={E4} alt="" />
+                        
+                    <div className={css.circle}>
+                    <img src={E4} alt="" />
+                    </div>
                         <span>Digital Branding</span>
                     </div>
                 </div>
                 <div className={css.div2bottom}>
                 <div className={css.box}>
-                        <img src={E5} alt="" />
+                    <div className={css.circle}>
+                    <img src={E5} alt="" />
+                    </div>
+                        
                         <span>Software Development</span>
                     </div>
                     <div className={css.box}>
-                        <img src={E6} alt="" />
+                    <div className={css.circle}>
+                    <img src={E6} alt="" />
+                    </div>
                         <span>UI/UX Design Service</span>
                     </div>
                     <div className={css.box}>
-                        <img src={E7} alt="" />
+                    <div className={css.circle}>
+                    <img src={E7} alt="" />
+                    </div>
                         <span>Application Services</span>
                     </div>
 

@@ -98,6 +98,26 @@ border-radius: 20px;
 border: 1px solid var(--Linear, #D95DB0);
 background: #000;
 }
+.circle{
+  padding: 6%;
+    background: #000;
+    border-radius: 50%;
+}
+.circle>img{
+    width: 80px;
+    height: 80px;
+}
+.box:hover{
+    cursor: pointer;
+    border-radius: 20px;
+background: var(--Linear, linear-gradient(90deg, #D95DB0 0%, #3344DC 100%));
+box-shadow: 0px 4px 4px 0px rgba(255, 171, 8, 0.25);
+z-index: 1;
+
+}
+.box>img{
+    z-index: 2;
+}
 .box>:nth-child(2){
     color: #606060;
 text-align: center;
