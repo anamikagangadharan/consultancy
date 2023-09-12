@@ -1,36 +1,29 @@
-import './App.css';
-import Contact from './components/Contact/Contact';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
+import SoftwareDevelopment from "./components/SoftwareDevelopment/SoftwareDevelopment";
 
 
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import Home from './components/Home/Home';
-
-import SoftwareDevelopment from './components/SoftwareDevelopment/SoftwareDevelopment';
-
-
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App"> 
-    <Router>
-     
+    <div className="App">
+      <Router>
 
-     
+        <Header />
 
-  
-      <Header/>
-      <Routes>
-     
-      <Route path='/' exact element={<Home/>}/>
-      <Route path='/contact'  element={ <Contact/>}/>
-      <Route path='/swd'  element={ <SoftwareDevelopment/> }/>
+        <Routes>
+              <Route path="/" exact element={<Home />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/swd" element={<SoftwareDevelopment />} />
+        </Routes>
 
-     
-     
-      </Routes>
-      <Footer/>
+        <Footer />
+
       </Router>
     </div>
   );

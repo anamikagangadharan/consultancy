@@ -51,10 +51,14 @@
     justify-content: space-between;
     gap: 2.4rem;
 }
-.rightlist>li{
+.rightlist>li, .serviceset>li{
     list-style: none;
     color: #E0E0E0;
 font-family: Nunito;
 font-size: 18px;
 font-weight: 400;
+}
+.serviceset{
+    display: flex;
+    gap: 0.4rem;
 }
