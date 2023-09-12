@@ -2,6 +2,7 @@ import './App.css';
 
 import About from './components/About/About';
 import Approach from './components/Approach/Approach';
+import Contact from './components/Contact/Contact';
 import Deliver from './components/Deliver/Deliver';
 import Experts from './components/Experts/Experts';
 import Footer from './components/Footer/Footer';
@@ -20,8 +21,11 @@ function App() {
       <Approach/>
       <Strategy/>
       <Deliver/>
-      <Footer/> */}
-      <SoftwareDevelopment/> 
+       */}
+
+      {/* <SoftwareDevelopment/>  */}
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
