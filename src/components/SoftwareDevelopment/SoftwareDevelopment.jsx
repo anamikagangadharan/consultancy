@@ -1,7 +1,7 @@
 import React from 'react'
 import css from "./SoftwareDevelopment.module.css"
 
-import { motion } from "framer-motion";
+
 import Top from "../../assets/Top.svg"
 import Bottom from "../../assets/bottom.svg" 
 
@@ -118,17 +118,14 @@ solutions.</span>
                             <div className={css.oddset} id='csd'
                             
                              >
-                                <motion.div className={css.oddsetcontent}
-                                 initial={{ x: "-15rem" }}
-                                 whileInView={{ x: "0rem" }}
-                                
-                                 transition={{ duration: 1 }}
+                                <div className={css.oddsetcontent}
+                               
                               
                                  >
                                     <span>1.Custom Software Development</span>
                                     <span>Branding is the art of crafting a unique and memorable identity for your business or personal venture. It involves creating a distinct logo, name, and messaging that sets you apart from competitors and leaves a lasting impression on your audience. Effective branding builds trust, recognition, and loyalty among customers.</span>
-                                </motion.div>
-                                < motion.div className={css.oddsetimage}
+                                </div>
+                                <div className={css.oddsetimage}
                                     initial={{ x: "15rem" }}
                                     whileInView={{ x: "0rem" }}
                                    
@@ -137,7 +134,7 @@ solutions.</span>
                                 >
                                     <img src={Set1} alt="" />
 
-                                </motion.div>
+                                </div>
                             </div>
                             {/* oddset */}
 

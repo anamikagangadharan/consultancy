@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import SoftwareDevelopment from "./components/SoftwareDevelopment/SoftwareDevelopment";
+import DigitalBranding from "./components/DigitalBranding/DigitalBranding";
 
 
 
@@ -20,6 +21,7 @@ function App() {
               <Route path="/" exact element={<Home />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/swd" element={<SoftwareDevelopment />} />
+              <Route path="/db" element={<DigitalBranding/>} />
         </Routes>
 
         <Footer />
