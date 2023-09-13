@@ -71,14 +71,33 @@ font-size: 18px;
 font-weight: 400;
 text-decoration: none;
 }
+.rightlist>a:hover{
+    color: var(--drak-orange, #ED7638);
+font-family: Nunito;
+font-size: 18px;
+font-style: normal;
+
+line-height: normal;
+cursor: pointer;
+}
 .serviceset{
     display: flex;
     gap: 0.4rem;
+    cursor: pointer;
+}
+.serviceset:hover > li{
+    color: var(--drak-orange, #ED7638);
+    cursor: pointer;
+}
+.serviceset:hover svg path{
+ 
+    stroke:  var(--drak-orange, #ED7638);;
 }
 .servicelist{
     position: absolute;
     width: 100%;
-    height: 500px;
+    border-radius: 5px;
+    /* height: 500px; */
     background: #000;
     color: #E0E0E0;
     right: 0;
@@ -121,6 +140,10 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.spans:hover{
+    color: #989393;
+    
+}
 .sbottom{
     display: flex;
     justify-content: space-between;
@@ -144,4 +167,12 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+}
+.headercontactbtn:hover{
+    cursor: pointer;
+    color: #ED7638;
+    background-color: transparent;
+    border: 0.2px solid #ED7638;
+    font-weight: 400;
+   
 }

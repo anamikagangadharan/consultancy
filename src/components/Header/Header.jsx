@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import css from "./Header.module.css"
 import Logo from "../../assets/consultancy-logo.svg"
 
-import Darrow from "../../assets/droparrow.svg"
+// import Darrow from "../../assets/droparrow.svg"
 import Bars from "../../assets/bars.svg"
 import { HashLink } from 'react-router-hash-link'
 import { Link } from 'react-router-dom'
@@ -55,7 +55,12 @@ const Header = () => {
              <HashLink to="/#home" smooth={true}> <li>Home</li> </HashLink>   
              <HashLink to="/#about" smooth={true}> <li>About</li> </HashLink>   
                 <div onClick={()=>setDrop(!drop)} className={css.serviceset}>  <li>Services</li>
-                <img src={Darrow} alt="" /> 
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="iconamoon:arrow-down-2-light">
+<path id="Vector" d="M7 10L12 15L17 10" stroke="#E0E0E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
+
                 </div>
                 {drop && <div onClick={()=>setDrop(false)} className={css.servicelist}>
                   <div className={css.stop}>

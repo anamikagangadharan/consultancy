@@ -14,6 +14,7 @@ import Mobileapp from "./components/MobileApp/Mobileapp";
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -30,9 +31,11 @@ function App() {
               <Route path="/webd" element={<Webdevelopment/>} />
               <Route path="/itcs" element={<ITconsultancy/>} />
               <Route path="/mob" element={<Mobileapp/>} />
+            
+
         </Routes>
 
-        <Footer />
+        <Footer /> 
 
       </Router>
     </div>
