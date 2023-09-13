@@ -52,8 +52,8 @@ const Header = () => {
              
        
             <ul className={css.rightlist}>
-             <HashLink to="/#home"> <li>Home</li> </HashLink>   
-                <li>About</li>
+             <HashLink to="/#home" smooth={true}> <li>Home</li> </HashLink>   
+             <HashLink to="/#about" smooth={true}> <li>About</li> </HashLink>   
                 <div onClick={()=>setDrop(!drop)} className={css.serviceset}>  <li>Services</li>
                 <img src={Darrow} alt="" /> 
                 </div>
@@ -116,7 +116,7 @@ const Header = () => {
                   </div>
                     </div>}
                
-                <li>Contact Us</li>
+              <Link to="/contact"> <button className={css.headercontactbtn}>Contact Us</button> </Link>  
             </ul>}
         </div>
         </div>

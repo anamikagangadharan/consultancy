@@ -4,6 +4,9 @@
     position: relative;
     border-top: 1px solid rgb(41, 40, 40);
     margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .wrap{
     width: 100%;

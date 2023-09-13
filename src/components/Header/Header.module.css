@@ -61,6 +61,7 @@
     display: flex;
     justify-content: space-between;
     gap: 2.4rem;
+    align-items: center;
 }
 .rightlist>li, .serviceset>li, .rightlist>a{
     list-style: none;
@@ -123,4 +124,24 @@ line-height: normal;
 .sbottom{
     display: flex;
     justify-content: space-between;
+}
+.headercontactbtn{
+
+
+display: flex;
+/* height: 40px;
+padding: 0px 24px; */
+height: 35px;
+padding: 0 18px;
+align-items: center;
+gap: 10px;
+border-radius: 6px;
+background: #F07E38;
+border: none;
+color: #FFF;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
