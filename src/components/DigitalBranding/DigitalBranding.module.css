@@ -76,7 +76,7 @@ margin-top: 1rem;
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 0 6%;
+    padding: 6% 6%;
 
 }
 .wrap2{
@@ -88,6 +88,7 @@ margin-top: 1rem;
 .div2{
     display: flex;
     flex-direction: column;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
     width: 100%;
