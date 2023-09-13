@@ -10,6 +10,7 @@ import DigitalBranding from "./components/DigitalBranding/DigitalBranding";
 import UiUx from "./components/UiUx/UiUx";
 import Webdevelopment from "./components/Webdevelopment/Webdevelopment";
 import ITconsultancy from "./components/ITconsultancy/ITconsultancy";
+import Mobileapp from "./components/MobileApp/Mobileapp";
 
 
 
@@ -28,6 +29,7 @@ function App() {
               <Route path="/uiux" element={<UiUx/>} />
               <Route path="/webd" element={<Webdevelopment/>} />
               <Route path="/itcs" element={<ITconsultancy/>} />
+              <Route path="/mob" element={<Mobileapp/>} />
         </Routes>
 
         <Footer />
