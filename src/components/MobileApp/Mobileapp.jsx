@@ -115,7 +115,7 @@ const Mobileapp = () => {
                       <div className={css.div3content}>
 
                        {/* oddset */}
-                          <div className={css.oddset} id='csd'
+                          <div className={css.oddset} id='aad'
                           
                            >
                               <div className={css.oddsetcontent}
@@ -140,7 +140,7 @@ const Mobileapp = () => {
 
 
                         {/* evenset */}
-                          <div className={css.evenset} id='spd'>
+                          <div className={css.evenset} id='ios'>
                               <div className={css.evensetimage}>
                                   <img src={Set2} alt="" />
                               </div>
@@ -153,7 +153,7 @@ const Mobileapp = () => {
                           {/* evenset */}
 
                            {/* oddset */}
-                           <div className={css.oddset} id='ssm'>
+                           <div className={css.oddset} id='cmas'>
                               <div className={css.oddsetcontent}>
                                  <span>3. Custom Mobile App Services</span>
                                  <span>Sometimes, unique challenges call for custom solutions. Our custom mobile app development services are tailored to address your specific requirements. Whether it's a cross-platform app, a specialized business tool, or a niche consumer app, we have the expertise to bring your vision to reality.</span>

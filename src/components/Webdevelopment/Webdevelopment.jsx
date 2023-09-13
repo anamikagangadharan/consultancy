@@ -113,7 +113,7 @@ const Webdevelopment = () => {
                       <div className={css.div3content}>
 
                        {/* oddset */}
-                          <div className={css.oddset} id='csd'
+                          <div className={css.oddset} id='ssd'
                           
                            >
                               <div className={css.oddsetcontent}
@@ -138,7 +138,7 @@ const Webdevelopment = () => {
 
 
                         {/* evenset */}
-                          <div className={css.evenset} id='spd'>
+                          <div className={css.evenset} id='dwd'>
                               <div className={css.evensetimage}>
                                   <img src={Set2} alt="" />
                               </div>
@@ -153,7 +153,7 @@ const Webdevelopment = () => {
                           {/* evenset */}
 
                            {/* oddset */}
-                           <div className={css.oddset} id='ssm'>
+                           <div className={css.oddset} id='ecom'>
                               <div className={css.oddsetcontent}>
                                  <span>3. E-commerce and Web App Development</span>
                                  <span>Transforming ideas into web app wonders! Our UI/UX experts create web applications that blend aesthetics with functionality for an outstanding user experience. Let us design your digital solution with precision and elegance.</span>
@@ -169,7 +169,7 @@ const Webdevelopment = () => {
 
 
                             {/* evenset */}
-                            <div className={css.evenset} id='sos'>
+                            <div className={css.evenset} id='ds'>
                               <div className={css.evensetimage}>
                                   <img src={Set4} alt="" />
                               </div>
@@ -185,7 +185,7 @@ const Webdevelopment = () => {
                           {/* evenset */}
 
                            {/* oddset */}
-                           <div className={css.oddset} id='ssm'>
+                           <div className={css.oddset} id='ss'>
                               <div className={css.oddsetcontent}>
                                  <span>5. Shopify Solutions</span>
                                 <li className={css.newli}>Shopify Experts: We create powerful online stores using Shopify, driving sales and engagement.</li>
@@ -200,7 +200,7 @@ const Webdevelopment = () => {
 
 
                             {/* evenset */}
-                            <div className={css.evenset} id='sos'>
+                            <div className={css.evenset} id='wp'>
                               <div className={css.evensetimage}>
                                   <img src={Set4} alt="" />
                               </div>

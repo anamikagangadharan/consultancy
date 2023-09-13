@@ -61,31 +61,31 @@ const Header = () => {
                   <div className={css.stop}>
                   <div className={css.types}>
                         <span className={css.typehead}>Web Development</span>
-                     <HashLink >  <span className={css.spans}>Static Website Development</span> </HashLink>  
-                        <span className={css.spans}>Dynamic Website Development</span>
-                        <span className={css.spans}>E-commerce and Web App Development</span>
-                        <span className={css.spans}>Deployment Services</span>
-                        <span className={css.spans}>Shopify Solutions</span>
-                        <span className={css.spans}>WordPress</span>
+                     <HashLink to='/webd/#ssd' >  <span className={css.spans}>Static Website Development</span> </HashLink>  
+                 <HashLink to="/webd/#dwd">      <span className={css.spans}>Dynamic Website Development</span> </HashLink> 
+                 <HashLink to="/webd/#ecom">    <span className={css.spans}>E-commerce and Web App Development</span> </HashLink> 
+                 <HashLink to="/webd/#ds">      <span className={css.spans}>Deployment Services</span> </HashLink> 
+                 <HashLink to="/webd/#ss">     <span className={css.spans}>Shopify Solutions</span> </HashLink> 
+                 <HashLink to="/webd/#wp">     <span className={css.spans}>WordPress</span> </HashLink> 
                     </div>
                   
                     <div className={css.types}>
                         <span className={css.typehead}>Digital Branding</span>
-                        <span className={css.spans}>Branding</span>
-                        <span className={css.spans}>Search Engine Optimization</span>
-                        <span className={css.spans}>Content Marketing</span>
-                        <span className={css.spans}>Digital Marketing Trends</span>
-                        <span className={css.spans}>Video Content</span>
-                        <span className={css.spans}>Animation / Motion Graphics</span>
+                     <HashLink to="/db/#brand" >    <span className={css.spans}>Branding</span> </HashLink>
+                     <HashLink to="/db/#seo">    <span className={css.spans}>Search Engine Optimization</span> </HashLink>
+                     <HashLink to="/db/#cm">   <span className={css.spans}>Content Marketing</span> </HashLink>
+                     <HashLink to="/db/#dmt">   <span className={css.spans}>Digital Marketing Trends</span> </HashLink>
+                     <HashLink to="/db/#vc">   <span className={css.spans}>Video Content</span> </HashLink>
+                     <HashLink to="/db/#amg">     <span className={css.spans}>Animation / Motion Graphics</span> </HashLink>
                     </div>
                     <div className={css.types}>
                         <span className={css.typehead}>UI/UX Design Service</span>
-                        <span className={css.spans}>Website Design</span>
-                        <span className={css.spans}>Mobile App Design</span>
-                        <span className={css.spans}>Web App Design</span>
-                        <span className={css.spans}>Redesigning</span>
-                        <span className={css.spans}>MVP (Minimum Viable Product)</span>
-                        <span className={css.spans}>Website Animation / Motion Graphics</span>
+                    <HashLink to="/uiux/#wd">   <span className={css.spans}>Website Design</span> </HashLink> 
+                    <HashLink to="/uiux/#mad">     <span className={css.spans}>Mobile App Design</span> </HashLink> 
+                    <HashLink to="/uiux/#wad">     <span className={css.spans}>Web App Design</span> </HashLink> 
+                    <HashLink to="/uiux/#red">    <span className={css.spans}>Redesigning</span> </HashLink> 
+                    <HashLink to="/uiux/#mvp">    <span className={css.spans}>MVP (Minimum Viable Product)</span> </HashLink> 
+                    <HashLink to="/uiux/#wamg">    <span className={css.spans}>Website Animation / Motion Graphics</span> </HashLink> 
                     </div>
                   
                   </div>
@@ -101,15 +101,15 @@ const Header = () => {
                  
                   <div className={css.types}>
                         <span className={css.typehead}>IT Consulting & Services</span>
-                        <span className={css.spans}>Application Maintenance</span>
-                        <span className={css.spans}> IT Solutions</span>
-                        <span className={css.spans}>Technology Consultancy</span>
+                    <HashLink to="/itcs/#am"> <span className={css.spans}>Application Maintenance</span></HashLink>    
+                    <HashLink to="/itcs/#itsol"> <span className={css.spans}> IT Solutions</span></HashLink>   
+                    <HashLink to="/itcs/#tc"> <span className={css.spans}>Technology Consultancy</span></HashLink>  
                     </div>
                     <div className={css.types}>
-                        <span className={css.typehead}>Mobile App Development</span>
-                        <span className={css.spans}>Android App Development</span>
-                        <span className={css.spans}>ios App Development</span>
-                        <span className={css.spans}>Custom Mobile App Services</span>
+                      <span className={css.typehead}>Mobile App Development</span>
+                      <HashLink to="/mob/#aad">  <span className={css.spans}>Android App Development</span>  </HashLink>    
+                      <HashLink to="/mob/#ios">  <span className={css.spans}>iOS App Development</span> </HashLink>  
+                      <HashLink to="/mob/#cmas">  <span className={css.spans}>Custom Mobile App Services</span> </HashLink>  
                     </div>
                    
 

@@ -112,7 +112,7 @@ const DigitalBranding = () => {
                       <div className={css.div3content}>
 
                        {/* oddset */}
-                          <div className={css.oddset} id='csd'
+                          <div className={css.oddset} id='brand'
                           
                            >
                               <div className={css.oddsetcontent}
@@ -137,7 +137,7 @@ const DigitalBranding = () => {
 
 
                         {/* evenset */}
-                          <div className={css.evenset} id='spd'>
+                          <div className={css.evenset} id='seo'>
                               <div className={css.evensetimage}>
                                   <img src={Set2} alt="" />
                               </div>
@@ -150,7 +150,7 @@ const DigitalBranding = () => {
                           {/* evenset */}
 
                            {/* oddset */}
-                           <div className={css.oddset} id='ssm'>
+                           <div className={css.oddset} id='cm'>
                               <div className={css.oddsetcontent}>
                                  <span>3.Content Marketing</span>
                                   <span>Content Marketing is the strategic creation and distribution of valuable, relevant, and engaging content to attract, engage, and retain a target audience. By delivering informative and entertaining content, businesses and individuals aim to build trust, authority, and brand loyalty. Content marketing is a powerful way to connect with your audience and drive desired actions.</span>
@@ -164,7 +164,7 @@ const DigitalBranding = () => {
 
 
                             {/* evenset */}
-                            <div className={css.evenset} id='sos'>
+                            <div className={css.evenset} id='dmt'>
                               <div className={css.evensetimage}>
                                   <img src={Set4} alt="" />
                               </div>
@@ -178,7 +178,7 @@ const DigitalBranding = () => {
 
 
                            {/* oddset */}
-                           <div className={css.oddset} id='ssm'>
+                           <div className={css.oddset} id='vc'>
                               <div className={css.oddsetcontent}>
                                  <span>5.Video Content</span>
                                   <span>Video Content is a dynamic and engaging medium that delivers information, entertainment, and storytelling through visual and auditory means. It has become a powerful tool in digital marketing, social media, and online communication. Video content can include explainer videos, vlogs, tutorials, product demonstrations, and more, offering a compelling way to connect with audiences and convey messages effectively.</span>
@@ -192,7 +192,7 @@ const DigitalBranding = () => {
 
 
                             {/* evenset */}
-                            <div className={css.evenset} id='sos'>
+                            <div className={css.evenset} id='amg'>
                               <div className={css.evensetimage}>
                                   <img src={Set6} alt="" />
                               </div>

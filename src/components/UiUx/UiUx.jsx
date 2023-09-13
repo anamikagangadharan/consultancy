@@ -115,7 +115,7 @@ const UiUx = () => {
                         <div className={css.div3content}>
 
                          {/* oddset */}
-                            <div className={css.oddset} id='csd'
+                            <div className={css.oddset} id='wd'
                             
                              >
                                 <div className={css.oddsetcontent}
@@ -140,7 +140,7 @@ const UiUx = () => {
 
 
                           {/* evenset */}
-                            <div className={css.evenset} id='spd'>
+                            <div className={css.evenset} id='mad'>
                                 <div className={css.evensetimage}>
                                     <img src={Set2} alt="" />
                                 </div>
@@ -155,7 +155,7 @@ const UiUx = () => {
                             {/* evenset */}
 
                              {/* oddset */}
-                             <div className={css.oddset} id='ssm'>
+                             <div className={css.oddset} id='wad'>
                                 <div className={css.oddsetcontent}>
                                    <span>3. Web App Design</span>
                                    <span>Transforming ideas into web app wonders! Our UI/UX experts create web applications that blend aesthetics with functionality for an outstanding user experience. Let us design your digital solution with precision and elegance.</span>
@@ -171,7 +171,7 @@ const UiUx = () => {
 
 
                               {/* evenset */}
-                              <div className={css.evenset} id='sos'>
+                              <div className={css.evenset} id='red'>
                                 <div className={css.evensetimage}>
                                     <img src={Set4} alt="" />
                                 </div>
@@ -184,7 +184,7 @@ const UiUx = () => {
                             {/* evenset */}
 
                              {/* oddset */}
-                             <div className={css.oddset} id='ssm'>
+                             <div className={css.oddset} id='mvp'>
                                 <div className={css.oddsetcontent}>
                                    <span>5. MVP (Minimum Viable Product)</span>
                                    <span>Launch your product idea quickly and efficiently with our MVP (Minimum Viable Product) UI/UX design. We'll help you create a streamlined and user-focused prototype that captures the essence of your concept, allowing for rapid testing and validation. Get ready to make your mark in the market with our MVP design expertise.</span>
@@ -200,7 +200,7 @@ const UiUx = () => {
 
 
                               {/* evenset */}
-                              <div className={css.evenset} id='sos'>
+                              <div className={css.evenset} id='wamg'>
                                 <div className={css.evensetimage}>
                                     <img src={Set6} alt="" />
                                 </div>

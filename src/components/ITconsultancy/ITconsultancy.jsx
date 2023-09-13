@@ -113,7 +113,7 @@ const ITconsultancy = () => {
                         <div className={css.div3content}>
 
                          {/* oddset */}
-                            <div className={css.oddset} id='csd'
+                            <div className={css.oddset} id='am'
                             
                              >
                                 <div className={css.oddsetcontent}
@@ -138,7 +138,7 @@ const ITconsultancy = () => {
 
 
                           {/* evenset */}
-                            <div className={css.evenset} id='spd'>
+                            <div className={css.evenset} id='itsol'>
                                 <div className={css.evensetimage}>
                                     <img src={Set2} alt="" />
                                 </div>
@@ -151,7 +151,7 @@ const ITconsultancy = () => {
                             {/* evenset */}
 
                              {/* oddset */}
-                             <div className={css.oddset} id='ssm'>
+                             <div className={css.oddset} id='tc'>
                                 <div className={css.oddsetcontent}>
                                    <span>3. Technology Consultancy</span>
                                    <span>In an ever-evolving tech world, staying ahead is essential. We offer strategic technology consultancy to align your IT strategy with your business objectives, providing you with a competitive edge.</span>
