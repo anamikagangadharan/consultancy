@@ -8,6 +8,7 @@ import Home from "./components/Home/Home";
 import SoftwareDevelopment from "./components/SoftwareDevelopment/SoftwareDevelopment";
 import DigitalBranding from "./components/DigitalBranding/DigitalBranding";
 import UiUx from "./components/UiUx/UiUx";
+import Webdevelopment from "./components/Webdevelopment/Webdevelopment";
 
 
 
@@ -24,6 +25,7 @@ function App() {
               <Route path="/swd" element={<SoftwareDevelopment />} />
               <Route path="/db" element={<DigitalBranding/>} />
               <Route path="/uiux" element={<UiUx/>} />
+              <Route path="/webd" element={<Webdevelopment/>} />
         </Routes>
 
         <Footer />

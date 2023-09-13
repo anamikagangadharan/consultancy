@@ -251,7 +251,7 @@ text-align: left;
     /* animation: fadeInRight 2s ease-in-out;  */
 }
 .oddsetimage>img{
-    width: 60%;
+    width: 80%;
     height: auto;
     
 }
@@ -296,7 +296,7 @@ text-align: left;
     /* animation: fadeInLeft 2s ease-in-out;  */
 }
 .evensetimage>img{
-    width: 60%;
+    width: 80%;
     height: auto;
 
 }
