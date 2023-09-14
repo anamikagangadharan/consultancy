@@ -1,0 +1,45 @@
+/* BoxAnimation.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: background-color 0.5s;
+  }
+  
+  .box:hover {
+    background-color: #e74c3c;
+  }
+  
+  .logo {
+    width: 00px; 
+    height: 00px; 
+    background-image: url('../../assets/consultancy-logo.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 56px;
+    right: 56%;
+    transform: translate(50%, -50%) rotate(20deg); /* Adjust rotation as needed */
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+  }
+  
+  .box:hover .logo {
+    /* top: -100%; */
+    width: 100px;
+    height: 100px;
+    transform: translate(95%, -85%) rotate(0deg); /* Adjust rotation as needed */
+  }
+  

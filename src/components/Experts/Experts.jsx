@@ -25,7 +25,8 @@ const Experts = () => {
             <div className={css.div2}>
                 <div className={css.div2top}>
                     <div className={css.box}>
-                    <div className={css.circle}>
+                        <div className={css.logo}></div>
+                    <div className={css.circles}>
                     <img src={E1} alt="" />
                     </div>
                         <span>IT Consulting & Services</span>
