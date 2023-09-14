@@ -16,6 +16,7 @@ import Set1 from "../../assets/webdevelopment/wset1.svg"
 import Set2 from "../../assets/webdevelopment/wset2.svg"
 import Set3 from "../../assets/webdevelopment/wset3.svg"
 import Set4 from "../../assets/webdevelopment/wset4.svg"
+import { HashLink } from 'react-router-hash-link'
 
 const Webdevelopment = () => {
   return (
@@ -26,7 +27,7 @@ const Webdevelopment = () => {
           <div className={css.div1}>
               <span>Elevate Your Online Presence with Expert Web Development Services</span>
              <span>In today's digital landscape, a beautifully crafted website is your online identity's cornerstone. Our seasoned web developers are ready to turn your vision into reality, whether you're a startup, growing business, or established enterprise.</span>
-              <button className={css.startbtn}>Start Project</button>
+           <HashLink to="/contact/#contactform">  <button className={css.startbtn}>Start Project</button> </HashLink>  
           </div>
 
           </div>

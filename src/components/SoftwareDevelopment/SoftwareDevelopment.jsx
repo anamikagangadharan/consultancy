@@ -16,6 +16,7 @@ import Set1 from "../../assets/set1.svg"
 import Set2 from "../../assets/set2.svg"
 import Set3 from "../../assets/set3.svg"
 import Set4 from "../../assets/set4.svg"
+import { HashLink } from 'react-router-hash-link'
 
 const SoftwareDevelopment = () => {
 
@@ -28,7 +29,7 @@ const SoftwareDevelopment = () => {
             <div className={css.div1}>
                 <span>Choose Invicious for Software Excellence</span>
                 <span>Where Custom Solutions and Innovation Meet. Your trusted partner for software development excellence. In a digital-first world, the right software can transform your business. We're here to make sure it does.</span>
-                <button className={css.startbtn}>Start Project</button>
+                <HashLink to="/contact/#contactform">  <button className={css.startbtn}>Start Project</button> </HashLink>  
             </div>
 
             </div>

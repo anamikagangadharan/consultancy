@@ -1,6 +1,8 @@
 import React from 'react'
 import css from "./Contact.module.css"
 
+import { HashLink } from 'react-router-hash-link'
+
 const Contact = () => {
   return (
     <div className={css.container} id='contact'>
@@ -9,13 +11,13 @@ const Contact = () => {
        
                 <span>Contact Us</span>
                 <span>Invicious Consultancy Services, your gateway to seamless technology solutions and expert IT guidance. Unlock the power of innovation and achieve business excellence with our dedicated team of professionals."</span>
-                <button className={css.startbtn}>Start Project</button>
+                <HashLink to="/contact/#contactform" smooth={true}>  <button className={css.startbtn}>Start Project</button> </HashLink>
          
 
         </div>
         </div>
 
-        <div className={css.container2}>
+        <div className={css.container2} id='contactform'>
             <div className={css.heading}>
                 <span>Contact Us</span>
             </div>

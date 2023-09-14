@@ -15,6 +15,7 @@ import D7 from "../../assets/itconsultancy/itd7.svg"
 import Set1 from "../../assets/itconsultancy/itset1.svg"
 import Set2 from "../../assets/itconsultancy/itset2.svg"
 import Set3 from "../../assets/itconsultancy/itset3.svg"
+import { HashLink } from 'react-router-hash-link'
 
 
 const ITconsultancy = () => {
@@ -26,7 +27,7 @@ const ITconsultancy = () => {
             <div className={css.div1}>
                 <span>Your Trusted IT Consultancy Partner for Sustainable Success</span>
                <span>In today's fast-paced technological landscape, businesses need more than just software; they need strategic IT solutions that empower growth and ensure seamless operations.</span>
-                <button className={css.startbtn}>Start Project</button>
+               <HashLink to="/contact/#contactform">  <button className={css.startbtn}>Start Project</button> </HashLink>
             </div>
 
             </div>

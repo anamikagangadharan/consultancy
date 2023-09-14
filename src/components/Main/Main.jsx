@@ -1,6 +1,7 @@
 import React from 'react'
 import css from "./Main.module.css"
 import Main1 from "../../assets/main1.svg"
+import { HashLink } from 'react-router-hash-link'
 const Main = () => {
   return (
     <div className={css.container} id='home'>
@@ -12,7 +13,7 @@ const Main = () => {
                 </span>
             </div>
             <div className={css.lediv2}>
-                <button className={css.getinbutton}>Get in Touch</button>
+              <HashLink to="/contact/#contactform">  <button className={css.getinbutton}>Get in Touch</button> </HashLink>
             </div>
 
             <div className={css.lediv2}></div>

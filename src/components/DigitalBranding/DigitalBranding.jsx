@@ -16,6 +16,7 @@ import Set3 from "../../assets/digitalbranding/dbset3.svg"
 import Set4 from "../../assets/digitalbranding/dbset4.svg"
 import Set5 from "../../assets/digitalbranding/dbset5.svg"
 import Set6 from "../../assets/digitalbranding/dbset6.svg"
+import { HashLink } from 'react-router-hash-link'
 
 const DigitalBranding = () => {
   return (
@@ -26,7 +27,7 @@ const DigitalBranding = () => {
           <div className={css.div1}>
               <span> Elevate Your Brand with Our Digital Expertise</span>
               <span>Where innovation meets creativity, and your brand's digital journey begins. In an era driven by digital experiences, your brand's success hinges on captivating design, strategic marketing, and staying ahead of the curve. That's where we come in.</span>
-              <button className={css.startbtn}>Start Project</button>
+              <HashLink to="/contact/#contactform">  <button className={css.startbtn}>Start Project</button> </HashLink>
           </div>
 
           </div>

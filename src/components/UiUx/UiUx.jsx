@@ -19,6 +19,8 @@ import Set4 from "../../assets/uiux/uiset4.svg"
 import Set5 from "../../assets/uiux/uiset5.svg"
 import Set6 from "../../assets/uiux/uiset6.svg"
 
+import { HashLink } from 'react-router-hash-link'
+
 const UiUx = () => {
   return (
     <div className={css.container} id='uiux'>
@@ -28,7 +30,7 @@ const UiUx = () => {
             <div className={css.div1}>
                 <span>Elevate Your Brand with Seamless UI/UX Excellence</span>
                <span>Our skilled UI/UX team crafts modern solutions for Web, Desktop, iOS, and Android. We excel in interactive prototypes, stunning interfaces, and top-notch UX. Trust Invicious Consultancy for a delightful brand experience!</span>
-                <button className={css.startbtn}>Start Project</button>
+               <HashLink to="/contact/#contactform">  <button className={css.startbtn}>Start Project</button> </HashLink>
             </div>
 
             </div>

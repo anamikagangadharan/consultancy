@@ -17,6 +17,7 @@ import Set2 from "../../assets/mobileapp/mset2.svg"
 import Set3 from "../../assets/mobileapp/mset3.svg"
 
 import Set4new from "../../assets/mobileapp/msetnew4.svg"
+import { HashLink } from 'react-router-hash-link'
 
 
 const Mobileapp = () => {
@@ -28,7 +29,7 @@ const Mobileapp = () => {
           <div className={css.div1}>
               <span>Mobile App Development</span>
              <span>In today's fast-paced technological landscape, businesses need more than just software; they need strategic IT solutions that empower growth and ensure seamless operations.</span>
-              <button className={css.startbtn}>Start Project</button>
+             <HashLink to="/contact/#contactform">  <button className={css.startbtn}>Start Project</button> </HashLink>
           </div>
 
           </div>
