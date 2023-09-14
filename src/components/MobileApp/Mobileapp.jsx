@@ -21,7 +21,7 @@ import Set4new from "../../assets/mobileapp/msetnew4.svg"
 
 const Mobileapp = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='mob'>
     <div className={css.container1}>
       <div className={css.wrap1}>
 

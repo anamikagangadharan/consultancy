@@ -6,6 +6,7 @@ import S3 from "../../assets/s3.png"
 import S4 from "../../assets/s4.png"
 import S5 from "../../assets/s5.png"
 import Rarrow from "../../assets/rightarrow.svg"
+import { HashLink } from 'react-router-hash-link'
 
 const Strategy = () => {
   return (
@@ -49,10 +50,10 @@ const Strategy = () => {
         </div>
 
         <div className={css.div3}>
-            <div className={css.knowmore}>
+         <HashLink to="/#about">  <div className={css.knowmore}>
             <span >Know more about us</span>
             <img src={Rarrow} alt="" />
-            </div>
+            </div> </HashLink> 
             
         </div>
      

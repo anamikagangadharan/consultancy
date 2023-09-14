@@ -19,7 +19,7 @@ import Set6 from "../../assets/digitalbranding/dbset6.svg"
 
 const DigitalBranding = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='db'>
     <div className={css.container1}>
       <div className={css.wrap1}>
 

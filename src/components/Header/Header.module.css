@@ -49,10 +49,11 @@
    /* width: 50%; */
 
 }
-.left>img{
+.left>a>img{
     width: 138px;
     height: 40px;
 }
+
 .right{
    /* width: 50%; */
 }

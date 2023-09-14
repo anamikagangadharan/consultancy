@@ -21,7 +21,7 @@ import Set6 from "../../assets/uiux/uiset6.svg"
 
 const UiUx = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='uiux'>
       <div className={css.container1}>
         <div className={css.wrap1}>
 

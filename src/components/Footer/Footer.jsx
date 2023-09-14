@@ -5,6 +5,8 @@ import Logo from "../../assets/consultancy-logo.svg"
 import Insta from "../../assets/insta.svg"
 import Twitter from "../../assets/twitter.svg"
 import Chat from "../../assets/chat.svg"
+import { HashLink } from 'react-router-hash-link'
+
 
 const Footer = () => {
   return (
@@ -25,8 +27,8 @@ const Footer = () => {
                 <span>Transforming Technology,<br />
 Empowering Success.</span>
 <div className={css.left3icons}>
-                <img src={Insta} alt="" />
-                <img src={Twitter} alt="" />
+              <a href="https://www.instagram.com/invicious.in/" target='blank'>  <img src={Insta} alt="" /> </a> 
+              <a href="https://twitter.com/invcs_in" target='blank'>  <img src={Twitter} alt="" /></a> 
 
                </div>
                </div>
@@ -50,15 +52,15 @@ Empowering Success.</span>
 
                 <div className={css.lists}>
                     <div className={css.listleft}>
-                        <span>IT Consulting & Services</span>
-                        <span>Software Development</span>
-                        <span>Mobile App Development</span>
-                        <span>Web Development</span>
+                    <HashLink to="/itcs/#itcs">    <span>IT Consulting & Services</span> </HashLink> 
+                        <HashLink to="swd/#swd">       <span>Software Development</span> </HashLink> 
+                        <HashLink to="/mob/#mob">  <span>Mobile App Development</span> </HashLink> 
+                        <HashLink to='/webd/#webd' >         <span>Web Development</span> </HashLink> 
                     </div>
                     <div className={css.listright}>
-                        <span>Digital Branding</span>
-                        <span>UI/UX Design Service</span>
-                        <span>Application Services</span>
+                    <HashLink to="/db/#db" >      <span>Digital Branding</span> </HashLink> 
+                    <HashLink to="/uiux/#uiux">      <span>UI/UX Design Service</span> </HashLink> 
+                        {/* <span>Application Services</span> */}
                     </div>
                 </div>
 
@@ -77,7 +79,7 @@ Empowering Success.</span>
 
                 <div className={css.right2}>
                     <span>+91 88778 80101</span>
-                    <span>contact@invicious.in</span>
+                   <a href="mailto: connect@invicious.in"> <span>contact@invicious.in</span> </a> 
                     <span>124-H, 3rd Floor, Thendral Complex,<br /> DB Road, RS Puram,  <br />Coimbatore - 641002</span>
                 </div>
             </div>

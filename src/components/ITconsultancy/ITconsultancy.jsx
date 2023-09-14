@@ -19,7 +19,7 @@ import Set3 from "../../assets/itconsultancy/itset3.svg"
 
 const ITconsultancy = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='itcs'>
       <div className={css.container1}>
         <div className={css.wrap1}>
 

@@ -21,7 +21,7 @@ const SoftwareDevelopment = () => {
 
   
   return (
-    <div className={css.container}>
+    <div className={css.container} id='swd'>
       <div className={css.container1}>
         <div className={css.wrap1}>
 
@@ -123,7 +123,7 @@ solutions.</span>
                                
                               
                                  >
-                                    <span>1.Custom Software Development</span>
+                                    <span>1. Custom Software Development</span>
                                     <span>Branding is the art of crafting a unique and memorable identity for your business or personal venture. It involves creating a distinct logo, name, and messaging that sets you apart from competitors and leaves a lasting impression on your audience. Effective branding builds trust, recognition, and loyalty among customers.</span>
                                 </div>
                                 <div className={css.oddsetimage}
@@ -147,7 +147,7 @@ solutions.</span>
                                 </div>
                                 <div className={css.evensetcontent}>
                                    
-                                    <span>2.Software Product Development</span>
+                                    <span>2. Software Product Development</span>
                                     <span>Search Engine Optimization (SEO) is the practice of optimizing your website and online content to rank higher in search engine results like Google. By using strategic keywords, improving website structure, and providing valuable content, SEO helps increase your online visibility. It's a vital tool for attracting organic traffic and reaching your target audience effectively.   </span>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@ solutions.</span>
                              {/* oddset */}
                              <div className={css.oddset} id='ssm'>
                                 <div className={css.oddsetcontent}>
-                                   <span>3.Software Support and Maintenance</span>
+                                   <span>3. Software Support and Maintenance</span>
                                     <span>Content Marketing is the strategic creation and distribution of valuable, relevant, and engaging content to attract, engage, and retain a target audience. By delivering informative and entertaining content, businesses and individuals aim to build trust, authority, and brand loyalty. Content marketing is a powerful way to connect with your audience and drive desired actions.</span>
                                 </div>
                                 <div className={css.oddsetimage}>
@@ -174,7 +174,7 @@ solutions.</span>
                                 </div>
                                 <div className={css.evensetcontent}>
                                    
-                                    <span>4.Software Outsourcing Services</span>
+                                    <span>4. Software Outsourcing Services</span>
                                    <span>Digital Marketing Trends are ever-evolving strategies and tactics used by businesses to stay ahead in the online landscape. These trends encompass innovations in social media, video marketing, AI-driven personalization, voice search optimization, and more. Staying updated with these trends is crucial for businesses seeking to maximize their online impact and stay competitive in the digital realm.</span>
                                 </div>
                             </div>

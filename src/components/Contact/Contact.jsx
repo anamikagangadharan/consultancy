@@ -3,7 +3,7 @@ import css from "./Contact.module.css"
 
 const Contact = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='contact'>
         <div className={css.container1}>
         <div className={css.wrap1}>
        

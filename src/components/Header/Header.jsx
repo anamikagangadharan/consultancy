@@ -5,7 +5,7 @@ import Logo from "../../assets/consultancy-logo.svg"
 // import Darrow from "../../assets/droparrow.svg"
 import Bars from "../../assets/bars.svg"
 import { HashLink } from 'react-router-hash-link'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 const Header = () => {
    
@@ -42,7 +42,7 @@ const Header = () => {
     <div className={ state? css.container1 : css.container}> 
     <div className={css.wrap}> 
         <div className={css.left}>
-            <img src={Logo} alt="" />
+        <HashLink to="/#home">  <img src={Logo} alt="" /></HashLink>   
         </div>
         <div className={css.right}>
             {opened===false && mobile===true ? 
@@ -65,7 +65,7 @@ const Header = () => {
                 {drop && <div onClick={()=>setDrop(false)} className={css.servicelist}>
                   <div className={css.stop}>
                   <div className={css.types}>
-                        <span className={css.typehead}>Web Development</span>
+                  <HashLink to='/webd/#webd' >   <span className={css.typehead}>Web Development</span> </HashLink> 
                      <HashLink to='/webd/#ssd' >  <span className={css.spans}>Static Website Development</span> </HashLink>  
                  <HashLink to="/webd/#dwd">      <span className={css.spans}>Dynamic Website Development</span> </HashLink> 
                  <HashLink to="/webd/#ecom">    <span className={css.spans}>E-commerce and Web App Development</span> </HashLink> 
@@ -75,7 +75,7 @@ const Header = () => {
                     </div>
                   
                     <div className={css.types}>
-                        <span className={css.typehead}>Digital Branding</span>
+                    <HashLink to="/db/#db" >   <span className={css.typehead}>Digital Branding</span>  </HashLink>
                      <HashLink to="/db/#brand" >    <span className={css.spans}>Branding</span> </HashLink>
                      <HashLink to="/db/#seo">    <span className={css.spans}>Search Engine Optimization</span> </HashLink>
                      <HashLink to="/db/#cm">   <span className={css.spans}>Content Marketing</span> </HashLink>
@@ -84,7 +84,7 @@ const Header = () => {
                      <HashLink to="/db/#amg">     <span className={css.spans}>Animation / Motion Graphics</span> </HashLink>
                     </div>
                     <div className={css.types}>
-                        <span className={css.typehead}>UI/UX Design Service</span>
+                    <HashLink to="/uiux/#uiux">      <span className={css.typehead}>UI/UX Design Service</span>  </HashLink> 
                     <HashLink to="/uiux/#wd">   <span className={css.spans}>Website Design</span> </HashLink> 
                     <HashLink to="/uiux/#mad">     <span className={css.spans}>Mobile App Design</span> </HashLink> 
                     <HashLink to="/uiux/#wad">     <span className={css.spans}>Web App Design</span> </HashLink> 
@@ -97,7 +97,7 @@ const Header = () => {
 
                   <div className={css.sbottom}>
                   <div className={css.types}> 
-                     <span className={css.typehead}>Software Development</span>
+                <HashLink to="swd/#swd">     <span className={css.typehead}>Software Development</span> </HashLink> 
                      <HashLink  to="/swd/#csd">    <span  className={css.spans}>Custom Software Develpment</span>  </HashLink>  
                      <HashLink to="/swd/#spd">    <span className={css.spans}>Software Product Develpment</span>  </HashLink>  
                      <HashLink to="/swd/#ssm">    <span className={css.spans}>Software Support and Maintenance</span> </HashLink> 
@@ -105,13 +105,13 @@ const Header = () => {
                     </div>
                  
                   <div className={css.types}>
-                        <span className={css.typehead}>IT Consulting & Services</span>
+                  <HashLink to="/itcs/#itcs">   <span className={css.typehead}>IT Consulting & Services</span> </HashLink> 
                     <HashLink to="/itcs/#am"> <span className={css.spans}>Application Maintenance</span></HashLink>    
                     <HashLink to="/itcs/#itsol"> <span className={css.spans}> IT Solutions</span></HashLink>   
                     <HashLink to="/itcs/#tc"> <span className={css.spans}>Technology Consultancy</span></HashLink>  
                     </div>
                     <div className={css.types}>
-                      <span className={css.typehead}>Mobile App Development</span>
+                    <HashLink to="/mob/#mob">  <span className={css.typehead}>Mobile App Development</span>  </HashLink>
                       <HashLink to="/mob/#aad">  <span className={css.spans}>Android App Development</span>  </HashLink>    
                       <HashLink to="/mob/#ios">  <span className={css.spans}>iOS App Development</span> </HashLink>  
                       <HashLink to="/mob/#cmas">  <span className={css.spans}>Custom Mobile App Services</span> </HashLink>  
@@ -121,7 +121,7 @@ const Header = () => {
                   </div>
                     </div>}
                
-              <Link to="/contact"> <button className={css.headercontactbtn}>Contact Us</button> </Link>  
+              <HashLink to="/contact/#contact"> <button className={css.headercontactbtn}>Contact Us</button> </HashLink>  
             </ul>}
         </div>
         </div>

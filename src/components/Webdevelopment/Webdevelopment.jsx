@@ -19,7 +19,7 @@ import Set4 from "../../assets/webdevelopment/wset4.svg"
 
 const Webdevelopment = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='webd'>
     <div className={css.container1}>
       <div className={css.wrap1}>
 
