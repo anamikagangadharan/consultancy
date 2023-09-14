@@ -56,6 +56,11 @@ text-transform: capitalize;
     display: flex;
     gap: 1rem;
 }
+.left3icons>a:hover svg path{
+    fill:#f07e38;
+    cursor: pointer;
+  }
+  
 
 .line1{
     width: 95%;
