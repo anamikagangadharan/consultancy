@@ -32,20 +32,23 @@ const Experts = () => {
                         <span>IT Consulting & Services</span>
                     </div>
                     <div className={css.box}>
-                    <div className={css.circle}>
+                    <div className={css.logo}></div>
+                    <div className={css.circles}>
                     <img src={E2} alt="" />
                     </div>
                         <span>Web Development</span>
                     </div>
                     <div className={css.box}>
-                    <div className={css.circle}>
+                    <div className={css.logo}></div>
+                    <div className={css.circles}>
                     <img src={E3} alt="" />
                     </div>
                         <span>Mobile App Development</span>
                     </div>
                     <div className={css.box}>
+                    <div className={css.logo}></div>
                         
-                    <div className={css.circle}>
+                    <div className={css.circles}>
                     <img src={E4} alt="" />
                     </div>
                         <span>Digital Branding</span>
@@ -53,20 +56,23 @@ const Experts = () => {
                 </div>
                 <div className={css.div2bottom}>
                 <div className={css.box}>
-                    <div className={css.circle}>
+                <div className={css.logo}></div>
+                    <div className={css.circles}>
                     <img src={E5} alt="" />
                     </div>
                         
                         <span>Software Development</span>
                     </div>
                     <div className={css.box}>
-                    <div className={css.circle}>
+                    <div className={css.logo}></div>
+                    <div className={css.circles}>
                     <img src={E6} alt="" />
                     </div>
                         <span>UI/UX Design Service</span>
                     </div>
                     <div className={css.box}>
-                    <div className={css.circle}>
+                    <div className={css.logo}></div>
+                    <div className={css.circles}>
                     <img src={E7} alt="" />
                     </div>
                         <span>Application Services</span>

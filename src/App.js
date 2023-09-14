@@ -14,7 +14,7 @@ import Webdevelopment from "./components/Webdevelopment/Webdevelopment";
 import ITconsultancy from "./components/ITconsultancy/ITconsultancy";
 import Mobileapp from "./components/MobileApp/Mobileapp";
 import { useState } from "react";
-import Flip from "./components/Flip/Flip";
+
 
 
 
@@ -49,7 +49,7 @@ function App() {
               <Route path="/webd" element={<Webdevelopment/>} />
               <Route path="/itcs" element={<ITconsultancy/>} />
               <Route path="/mob" element={<Mobileapp/>} />
-              <Route path="/flip" element={<Flip/>} />
+             
             
 
         </Routes>
