@@ -88,7 +88,48 @@ const SoftwareDevelopment = () => {
                         <span>Reliable Support and Maintenance</span>
                        <span>We know software evolves. Our support and maintenance keep your software current, secure, and running smoothly, freeing you to focus on your core business.</span>
                     </div>
+                             </SwiperSlide>
 
+
+
+
+                             <SwiperSlide>
+                                 <div className={css.box}>
+                        <img src={D4} alt="" />
+                        <span>Global Outsourcing Excellence</span>
+                       <span>Utilize our offshore development services for cost-effective, high-quality software solutions, lowering your operational expenses.</span>
+                    </div>
+                             </SwiperSlide>
+
+
+                             <SwiperSlide>
+                             <div className={css.box2}>
+                        <img src={D5} alt="" />
+                        <span>Cutting-Edge Technology</span>
+                       <span>We lead in tech trends, with developers versed in the latest languages, frameworks, and methods for top-tier 
+solutions.</span>
+                    </div>
+                             </SwiperSlide>
+
+
+
+
+                             <SwiperSlide>
+                             <div className={css.box2}>
+                        <img src={D6} alt="" />
+                        <span>Data Security</span>
+                       <span>Your data's security is our paramount priority. We enforce stringent measures, meeting industry standards and regulations.</span>
+                    </div>
+                             </SwiperSlide>
+
+
+
+                             <SwiperSlide>
+                             <div className={css.box2}>
+                        <img src={D7} alt="" />
+                        <span>Proven Success</span>
+                       <span>Our track record shines. We've delivered software solutions across diverse industries, fueling business success in the digital world.</span>
+                    </div>
                              </SwiperSlide>
 
                 </Swiper>

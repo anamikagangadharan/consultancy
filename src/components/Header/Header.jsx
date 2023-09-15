@@ -59,11 +59,11 @@ const Header = () => {
             <ul  className={css.rightlist}>
               <HashLink to="/#home" smooth={true}>
                 {" "}
-                <li>Home</li>{" "}
+                <li onClick={()=>setOpened(false)}>Home</li>{" "}
               </HashLink>
               <HashLink to="/#about" smooth={true}>
                 {" "}
-                <li>About</li>{" "}
+                <li onClick={()=>setOpened(false)}>About</li>{" "}
               </HashLink>
               <div
                 ref={documentRef}
@@ -97,7 +97,7 @@ const Header = () => {
                     <div className={css.types}>
                       <HashLink to="/webd/#webd">
                         {" "}
-                        <span className={css.typehead}>
+                        <span onClick={()=>setOpened(false)} className={css.typehead}>
                           Web Development
                         </span>{" "}
                       </HashLink>
@@ -307,7 +307,7 @@ const Header = () => {
 
               <HashLink to="/contact/#contact">
                 {" "}
-                <button className={css.headercontactbtn}>
+                <button onClick={()=>setOpened(false)} className={css.headercontactbtn}>
                   Contact Us
                 </button>{" "}
               </HashLink>

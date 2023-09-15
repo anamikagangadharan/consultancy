@@ -80,6 +80,7 @@
   display: flex;
   gap: 0.4rem;
   cursor: pointer;
+  align-items: center;
 }
 .serviceset:hover > li {
   color: var(--drak-orange, #ed7638);
@@ -102,6 +103,7 @@
   padding: 6% 6%;
   gap: 2rem;
   animation: fadeIn 1s ease-in both;
+/* overflow: auto; */
 }
 .stop {
   display: flex;
@@ -171,11 +173,71 @@ padding: 0px 24px; */
   .container{
     width: 100%;
   }
+  .container1{
+    animation: none;
+  }
   .rightlist{
     display: flex;
     flex-direction: column;
     background-color: blueviolet;
-    margin-top: 14rem;
+   
+    position: fixed;
+/* top: -26px; */
+top: 0;
+left: 0%;
+display: block;
+
+
+height: 100vh;
+/* height: 600px; */
+width: 100%;
+/* background: #000000; */
+background-color: rgb(104, 128, 128);
+line-height: 40px;
+padding: 20px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+transition: all 0.5s ease;
+z-index: 999;
+align-items: left;
+text-align: left;
+gap: 2rem;
+
+backdrop-filter: blur(5px);
+overflow: auto;
+/* padding: 0; */
+
+  }
+ 
+  .servicelist{
+    position: static;
+    gap: 0;
+    overflow: auto;
+    overflow-x: scroll;
+    background-color: cadetblue;
+    height: 101vh;
+    animation: none;
+    /* min-height: 1000vh; */
+  }
+  .stop,.sbottom{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .types{
+    width: 100%;
+    gap: 0;
+  }
+  .types>a{
+    line-height: normal;
+  }
+  .typehead{
+    font-size: 12px;
+  }
+  .spans{
+    font-size: 10px;
   }
 
+  .headercontactbtn{
+    margin-top: 1rem;
+  }
 }
