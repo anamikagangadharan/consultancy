@@ -172,9 +172,15 @@ padding: 0px 24px; */
 @media screen and (max-width: 768px){
   .container{
     width: 100%;
+    height: 56px;
   }
   .container1{
     animation: none;
+    height: 56px;
+  }
+  .left > a > img {
+    width: 100px;
+    height: 40px;
   }
   .rightlist{
     display: flex;

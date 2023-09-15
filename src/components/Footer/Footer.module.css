@@ -199,6 +199,10 @@ opacity: 0.4;
     .left{
         width: 100%;
     }
+    .left1>img{
+        width: 100px;
+        height: 40px;
+    }
     .middle{
         width: 100%;
         padding: 0;
