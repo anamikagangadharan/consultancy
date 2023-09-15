@@ -175,4 +175,24 @@ line-height: normal;
     /* Adjust rotation as needed */
     opacity: 0.7;
   }
+  @media screen and (max-width: 768px){
+
+    .div2top{
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+    .div2top>:nth-child(2),.div2top>:nth-child(4){
+        margin-top: 0;
+    }
+    .div2bottom{flex-direction: column;}
+
+  .div2bottom>:nth-child(2){
+    margin-top: 0;
+  }
+
+  .box{
+    width: 100%;
+  }
+
+}
   

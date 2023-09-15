@@ -95,3 +95,39 @@ flex-shrink: 0;
     line-height: 162.023%; /* 32.405px */
     text-align: left;
 }
+
+
+@media screen and (max-width: 768px){
+
+
+    .head>:nth-child(1){
+        font-size: 24px; 
+        line-height: 36px;
+    }
+    .swiperdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        padding-bottom: 3rem;
+        /* height: 360px; */
+        height: 271px;
+        /* padding: 1% 2%; */
+     
+    }
+    .box{
+        width: 99%;
+        height: 215px;
+    }
+
+
+    .boxright>:nth-child(1){
+        font-size: 16px;
+    }
+
+    .boxright>:nth-child(2){
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
