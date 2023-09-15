@@ -196,4 +196,55 @@ opacity: 0.4;
         display: flex;
         flex-direction: column;
     }
+    .left{
+        width: 100%;
+    }
+    .middle{
+        width: 100%;
+        padding: 0;
+        gap: 0.4rem;
+    }
+
+    .listleft,.listright{
+        gap: 0.7rem;
+    }
+    .right{
+        width: 100%;
+    }
+    .hzline{
+        display: none;
+    }
+    .listleft>a, .listright>a{
+        font-size: 13px;
+        line-height: normal;
+    }
+
+    .mobline{
+        width: 1px;
+height: 132px;
+opacity: 0.12;
+background: #FFF;
+    }
+
+
+  .right{
+    gap: 0.5rem
+  }
+
+   .right2{
+    gap: 0.4rem;
+   }
+
+    .right2>span,.right2>a{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+
+    .copyright>:nth-child(1){
+        font-size: 13px;
+        line-height: 24px; /* 171.429% */
+letter-spacing: -0.28px;
+    }
 }

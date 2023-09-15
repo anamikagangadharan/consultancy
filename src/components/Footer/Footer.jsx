@@ -9,6 +9,7 @@ import { HashLink } from 'react-router-hash-link'
 
 
 const Footer = () => {
+    const mobile = window.innerWidth <= 768 ? true : false;
   return (
     <div  className={css.container}>
         <div className={css.wrap}>
@@ -72,6 +73,7 @@ Empowering Success.</span>
                         <HashLink to="/mob/#mob">  <span>Mobile App Development</span> </HashLink> 
                         <HashLink to='/webd/#webd' >         <span>Web Development</span> </HashLink> 
                     </div>
+               {mobile?   <div className={css.mobline}></div>     :""}     
                     <div className={css.listright}>
                     <HashLink to="/db/#db" >      <span>Digital Branding</span> </HashLink> 
                     <HashLink to="/uiux/#uiux">      <span>UI/UX Design Service</span> </HashLink> 
@@ -93,7 +95,7 @@ Empowering Success.</span>
                 <div className={css.line1}></div>
 
                 <div className={css.right2}>
-                    <span>+91 88778 80101</span>
+                    <span>+91 8877880101</span>
                    <a href="mailto: connect@invicious.in"> <span>contact@invicious.in</span> </a> 
                     <span>124-H, 3rd Floor, Thendral Complex,<br /> DB Road, RS Puram,  <br />Coimbatore - 641002</span>
                 </div>
@@ -109,7 +111,7 @@ Empowering Success.</span>
         <div className={css.contain2}>
             <div className={css.lineb}></div>
             <div className={css.copyright}>
-                <span>Copyright © 2023 Invicious Consltancy Services | All Rights Reserved. </span>
+                <span>Copyright © 2023 Invicious Consltancy Services | {mobile? <br></br> :""} All Rights Reserved. </span>
             </div>
         </div>
         </div>
