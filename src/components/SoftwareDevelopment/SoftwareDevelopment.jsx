@@ -18,7 +18,15 @@ import Set3 from "../../assets/set3.svg"
 import Set4 from "../../assets/set4.svg"
 import { HashLink } from 'react-router-hash-link'
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import {  Pagination } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
 const SoftwareDevelopment = () => {
+
+    const mobile = window.innerWidth <= 768 ? true : false;
 
   
   return (
@@ -45,6 +53,46 @@ const SoftwareDevelopment = () => {
                 <div className={css.div2head}>
                     <span>Transforming Ideas into Intuitive Experiences</span>
                 </div>
+
+                {/* content starts */}
+
+                {mobile?   <Swiper className={css.swiperdiv}
+                  modules={[Pagination]}
+                  //    navigation={true}
+                     pagination={true}
+                     loopFillGroupWithBlank={true}
+                     slidesPerView={1}
+                     spaceBetween={0}
+                     slidesPerGroup={1}
+                     loop={true}>
+                        <SwiperSlide> 
+                              <div className={css.box}>
+                        <img src={D1} alt="" />
+                        <span>Custom Software Mastery</span>
+                       <span>No one-size-fits-all here. We excel in crafting custom software solutions driven by your unique vision, from concept to execution.</span>
+                    </div>
+                             </SwiperSlide>
+
+                             <SwiperSlide>
+                             <div className={css.box}>
+                        <img src={D2} alt="" />
+                        <span>Product Innovation</span>
+                       <span>Got a game-changing software idea? We turn concepts into market-ready reality with user-friendly interfaces and robust functionality.</span>
+                    </div>
+                             </SwiperSlide>
+
+
+                             <SwiperSlide>
+                             <div className={css.box}>
+                        <img src={D3} alt="" />
+                        <span>Reliable Support and Maintenance</span>
+                       <span>We know software evolves. Our support and maintenance keep your software current, secure, and running smoothly, freeing you to focus on your core business.</span>
+                    </div>
+
+                             </SwiperSlide>
+
+                </Swiper>
+                 :
 
                 <div className={css.div2contents}>
                     <div className={css.div2contentstop}>
@@ -94,10 +142,9 @@ solutions.</span>
                     </div>
 
                    
-                   
-                    
+                </div> }
 
-                </div>
+                {/*  content ends */}
             </div>
            
 

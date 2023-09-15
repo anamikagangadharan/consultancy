@@ -56,7 +56,7 @@ const Header = () => {
               />
             </div>
           ) : (
-            <ul className={css.rightlist}>
+            <ul  className={css.rightlist}>
               <HashLink to="/#home" smooth={true}>
                 {" "}
                 <li>Home</li>{" "}

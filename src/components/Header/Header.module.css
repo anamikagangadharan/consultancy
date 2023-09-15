@@ -165,3 +165,17 @@ padding: 0px 24px; */
   border: 0.2px solid #ed7638;
   font-weight: 400;
 }
+
+
+@media screen and (max-width: 768px){
+  .container{
+    width: 100%;
+  }
+  .rightlist{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    margin-top: 14rem;
+  }
+
+}
