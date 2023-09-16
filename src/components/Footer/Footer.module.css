@@ -195,6 +195,10 @@ opacity: 0.4;
     .contain1{
         display: flex;
         flex-direction: column;
+        gap: 1.4rem;
+    }
+    .leftcontent{
+        gap: 0.5rem;
     }
     .left{
         width: 100%;
@@ -225,7 +229,7 @@ opacity: 0.4;
 
     .mobline{
         width: 1px;
-height: 132px;
+height: 110px;
 opacity: 0.12;
 background: #FFF;
     }
@@ -243,12 +247,25 @@ background: #FFF;
         font-size: 14px;
         line-height: 24px;
     }
+.lists{
+    gap: 0;
+}
 
-
-
+.copyright{
+    justify-content: center;
+    align-items: center;
+}
     .copyright>:nth-child(1){
         font-size: 13px;
         line-height: 24px; /* 171.429% */
 letter-spacing: -0.28px;
+    }
+
+    .last{
+        bottom: 95px;
+    }
+    .last>img{
+        width: 46px;
+        height: 46px;
     }
 }

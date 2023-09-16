@@ -83,6 +83,9 @@
 .div2bottom>:nth-child(2){
     margin-top: 2.8rem;
 }
+.div2top>a,.div2bottom>a{
+    width: 23%;
+}
 .box{
     display: flex;
     flex-direction: column;
@@ -91,7 +94,7 @@
     justify-content: center;
     /* width: 282px; */
 height: 226px;
-width: 23%;
+width: 90%;
 padding: 4% 1%;
 flex-shrink: 0;
 border-radius: 20px;
@@ -177,6 +180,20 @@ line-height: normal;
   }
   @media screen and (max-width: 768px){
 
+    .head>:nth-child(1){
+        font-size: 24px;
+    }
+    .head>:nth-child(2){
+        font-size: 16px;
+    }
+
+
+
+.div2{
+    gap: 1.6rem;
+}
+
+
     .div2top{
         flex-direction: column;
         gap: 1.6rem;
@@ -189,6 +206,9 @@ line-height: normal;
   .div2bottom>:nth-child(2){
     margin-top: 0;
   }
+  .div2top>a,.div2bottom>a{
+    width: 100%;
+}
 
   .box{
     width: 100%;

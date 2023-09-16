@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./Approach.module.css";
-import Value from "../../assets/testbox.svg";
-import Value2 from "../../assets/testbox2.svg";
+// import Value from "../../assets/testbox.svg";
+// import Value2 from "../../assets/testbox2.svg";
 import A1 from "../../assets/a1.svg"
 import A2 from "../../assets/a2.svg"
 import A3 from "../../assets/a3.svg"
@@ -15,7 +15,7 @@ import {  Pagination } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
-const Approach = () => {
+const Approach = () => { 
 
   const mobile = window.innerWidth <= 768 ? true : false;
   return (

@@ -98,9 +98,15 @@ line-height: normal;
 
 
 @media screen and (max-width: 768px){
-
+    .container{
+        padding-top: 55px;
+    }
+    .wrap{
+        gap: 2rem;
+    }
     .div1{
         width: 100%;
+        gap: 0.5rem;
     }
     .div1>:nth-child(1){
         font-size: 24px;
@@ -115,8 +121,22 @@ line-height: normal;
 
     .div2{
         flex-direction: column;
+        gap: 1rem;
     }
     .box{
         width: 100%;
+        padding: 3% 3%;
+    }
+    .boxleft>img{
+        width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    
+    }
+
+
+    .div3>:nth-child(1){
+        font-size: 12px;
+        line-height: 22px;
     }
 }
