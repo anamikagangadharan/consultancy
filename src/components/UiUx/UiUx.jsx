@@ -20,8 +20,14 @@ import Set5 from "../../assets/uiux/uiset5.svg"
 import Set6 from "../../assets/uiux/uiset6.svg"
 
 import { HashLink } from 'react-router-hash-link'
+import { Swiper, SwiperSlide } from "swiper/react";
+import {  Pagination } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/pagination";
 
 const UiUx = () => {
+    const mobile = window.innerWidth <= 768 ? true : false;
   return (
     <div className={css.container} id='uiux'>
       <div className={css.container1}>
@@ -46,6 +52,79 @@ const UiUx = () => {
                 <div className={css.div2head}>
                     <span>Transforming Ideas into Intuitive Experiences</span>
                 </div>
+
+                {mobile? <Swiper className={css.swiperdiv}
+                  modules={[Pagination]}
+                  //    navigation={true}
+                     pagination={true}
+                     loopFillGroupWithBlank={true}
+                     slidesPerView={1}
+                     spaceBetween={0}
+                     slidesPerGroup={1}
+                     loop={true}>
+
+                        <SwiperSlide>
+                        <div className={css.box}>
+                        <img src={D1} alt="" />
+                        <span>User Centered Design</span>
+                      <span> Craft intuitive interfaces that speak to your audience, putting their needs and desires at the forefront.</span>
+                    </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                        <div className={css.box}>
+                        <img src={D2} alt="" />
+                        <span>Multi-Platform Expertise</span>
+                      <span>Seamlessly extend your brand's reach with designs optimized for Web, Desktop, iOS, and Android.</span>
+                    </div>
+
+                        </SwiperSlide>
+
+
+
+
+                        <SwiperSlide>
+                        <div className={css.box}>
+                        <img src={D3} alt="" />
+                        <span> Interactive Prototypes</span>
+                     <span>Get a taste of the future with interactive prototypes that garner early user feedback and refine your vision.</span>
+                    </div>
+                        </SwiperSlide>
+
+
+                        <SwiperSlide>
+                        <div className={css.box}>
+                        <img src={D4} alt="" />
+                        <span>Collaborative Excellence</span>
+                      <span>Our expert UI/UX team collaborates with you throughout the process, ensuring your vision becomes a reality.</span>
+                    </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                        <div className={css.box2}>
+                        <img src={D5} alt="" />
+                        <span>Visually Stunning UI</span>
+                        <span>Elevate your brand with visually appealing and consistent user interfaces that leave a lasting impression.</span>
+                    </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                        <div className={css.box2}>
+                        <img src={D6} alt="" />
+                        <span>Implementing UX Techniques</span>
+                      <span>Infuse best practices into your digital products, enhancing usability, accessibility, and overall user satisfaction.</span>
+                    </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                        <div className={css.box2}>
+                        <img src={D7} alt="" />
+                        <span>Delivering Delightful Experiences</span>
+                    <span>At Invicious, we're dedicated to delivering experiences that set you apart and keep users coming back.</span>
+                    </div>
+                        </SwiperSlide>
+
+                </Swiper> :
 
                 <div className={css.div2contents}>
                     <div className={css.div2contentstop}>
@@ -97,7 +176,7 @@ const UiUx = () => {
                    
                     
 
-                </div>
+                </div> }
             </div>
            
 

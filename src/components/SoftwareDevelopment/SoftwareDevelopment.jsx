@@ -58,7 +58,6 @@ const SoftwareDevelopment = () => {
 
                 {mobile?   <Swiper className={css.swiperdiv}
                   modules={[Pagination]}
-                  //    navigation={true}
                      pagination={true}
                      loopFillGroupWithBlank={true}
                      slidesPerView={1}

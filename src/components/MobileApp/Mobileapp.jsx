@@ -19,8 +19,16 @@ import Set3 from "../../assets/mobileapp/mset3.svg"
 import Set4new from "../../assets/mobileapp/msetnew4.svg"
 import { HashLink } from 'react-router-hash-link'
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import {  Pagination } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
 
 const Mobileapp = () => {
+
+    const mobile= window.innerWidth<=768 ? true:false
   return (
     <div className={css.container} id='mob'>
     <div className={css.container1}>
@@ -45,7 +53,75 @@ const Mobileapp = () => {
               <div className={css.div2head}>
                   <span>Transforming Ideas into Intuitive Experiences</span>
               </div>
+{mobile? <Swiper className={css.swiperdiv}
+ modules={[Pagination]}
+ pagination={true}
+ loopFillGroupWithBlank={true}
+ slidesPerView={1}
+ spaceBetween={0}
+ slidesPerGroup={1}
+ loop={true}>
 
+    <SwiperSlide>
+    <div className={css.box}>
+                      <img src={D1} alt="" />
+                      <span>Strategy</span>
+                    <span>We start with success: Crafting strategies, not just apps. Our experts define objectives, audiences, and features for a purposeful, goal-aligned app. </span>
+                  </div>
+    </SwiperSlide>
+
+    <SwiperSlide>
+    <div className={css.box}>
+                      <img src={D2} alt="" />
+                      <span>User Experience Design</span>
+                    <span>Visionary user-centric design. Our team creates captivating, intuitive interfaces that leave lasting impressions and drive user engagement.</span>
+                  </div>
+    </SwiperSlide>
+
+    <SwiperSlide>
+    <div className={css.box}>
+                      <img src={D3} alt="" />
+                      <span>Prototyping Wireframes</span>
+                   <span>Concepts brought to life: We create prototypes and wireframes to visualize app flow, ensuring the right direction before development.</span>
+                  </div>
+    </SwiperSlide>
+
+    <SwiperSlide>
+    <div className={css.box}>
+                      <img src={D4} alt="" />
+                      <span>Design & Development</span>
+                    <span>Our design and development team transforms your vision into a polished mobile app, leveraging the latest tech and coding practices for excellence and innovation.</span>
+                  </div>
+    </SwiperSlide>
+
+    <SwiperSlide>
+    <div className={css.box2}>
+                      <img src={D5} alt="" />
+                      <span>Testing</span>
+                      <span>We prioritize quality and performance through rigorous testing, ensuring your app performs flawlessly across devices for an exceptional user experience.</span>
+                  </div>
+    </SwiperSlide>
+
+    <SwiperSlide>
+    <div className={css.box2}>
+                      <img src={D6} alt="" />
+                      <span>Launch</span>
+                    <span>We handle the launch, ensuring a seamless transition to app stores with optimization for enhanced discoverability, setting your app up for success.</span>
+                  </div>
+    </SwiperSlide>
+
+    <SwiperSlide>
+    <div className={css.box2}>
+                      <img src={D7} alt="" />
+                      <span>Support & Maintenance</span>
+                  <span>Beyond launch, we're your ongoing support, ensuring your app stays updated, secure, and performs at its best, with your long-term success as our goal.</span>
+                  </div>
+    </SwiperSlide>
+
+
+
+
+</Swiper> :
               <div className={css.div2contents}>
                   <div className={css.div2contentstop}>
                   <div className={css.box}>
@@ -96,7 +172,7 @@ const Mobileapp = () => {
                  
                   
 
-              </div>
+              </div> }
           </div>
          
 

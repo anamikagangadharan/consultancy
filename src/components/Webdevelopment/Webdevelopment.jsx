@@ -17,8 +17,15 @@ import Set2 from "../../assets/webdevelopment/wset2.svg"
 import Set3 from "../../assets/webdevelopment/wset3.svg"
 import Set4 from "../../assets/webdevelopment/wset4.svg"
 import { HashLink } from 'react-router-hash-link'
+import { Swiper, SwiperSlide } from "swiper/react";
+import {  Pagination } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/pagination";
 
 const Webdevelopment = () => {
+
+    const mobile = window.innerWidth <= 768 ? true : false;
   return (
     <div className={css.container} id='webd'>
     <div className={css.container1}>
@@ -43,7 +50,75 @@ const Webdevelopment = () => {
               <div className={css.div2head}>
                   <span>Transforming Ideas into Intuitive Experiences</span>
               </div>
+{mobile? <Swiper className={css.swiperdiv}
+             modules={[Pagination]}
+             pagination={true}
+             loopFillGroupWithBlank={true}
+             slidesPerView={1}
+             spaceBetween={0}
+             slidesPerGroup={1}
+             loop={true}>
 
+                <SwiperSlide>
+                <div className={css.box}>
+                      <img src={D1} alt="" />
+                      <span>Seamless & Speedy Performance</span>
+                    <span> Create a responsive website with optimized loading times for all devices and browsers by minimizing file sizes and utilizing browser caching.</span>
+                  </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                <div className={css.box}>
+                      <img src={D2} alt="" />
+                      <span>Security & Data Safety Net</span>
+                    <span>Ensure website security with HTTPS, proper file permissions, and regular audits. Back up site files and configurations to prevent data loss.</span>
+                  </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                <div className={css.box}>
+                      <img src={D3} alt="" />
+                      <span>Error Handling & Maintenance</span>
+                   <span>Craft user-friendly error pages. Maintain your website with updates for bug fixes and performance enhancements.</span>
+                  </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                <div className={css.box}>
+                      <img src={D4} alt="" />
+                      <span>Cross-Device Accessibility</span>
+                    <span>Ensure website accessibility on all devices. Streamline content management for up-to-date site maintenance.</span>
+                  </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                <div className={css.box2}>
+                      <img src={D5} alt="" />
+                      <span>Universal Browser Compatibility</span>
+                      <span>Ensure cross-browser compatibility, reliable hosting, efficient database management, and strong security for dynamic elements on your site.</span>
+                  </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                <div className={css.box2}>
+                      <img src={D6} alt="" />
+                      <span>Security Across the Board</span>
+                    <span>Prioritize robust security for both frontend and backend components, safeguarding static and dynamic elements thoroughly.</span>
+                  </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                <div className={css.box2}>
+                      <img src={D7} alt="" />
+                      <span>Scalability and API Synergy</span>
+                  <span>Prepare for scalability, ensuring harmony between frontend design and backend API for dynamic growth.</span>
+                  </div>
+                </SwiperSlide>
+
+
+
+
+</Swiper> :
               <div className={css.div2contents}>
                   <div className={css.div2contentstop}>
                   <div className={css.box}>
@@ -94,7 +169,7 @@ const Webdevelopment = () => {
                  
                   
 
-              </div>
+              </div> }
           </div>
          
 

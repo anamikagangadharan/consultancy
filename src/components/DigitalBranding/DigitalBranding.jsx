@@ -18,7 +18,15 @@ import Set5 from "../../assets/digitalbranding/dbset5.svg"
 import Set6 from "../../assets/digitalbranding/dbset6.svg"
 import { HashLink } from 'react-router-hash-link'
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import {  Pagination } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
 const DigitalBranding = () => {
+
+    const mobile = window.innerWidth <= 768 ? true : false;
   return (
     <div className={css.container} id='db'>
     <div className={css.container1}>
@@ -43,6 +51,91 @@ const DigitalBranding = () => {
                   <span>Transforming Ideas into Intuitive Experiences</span>
               </div>
 
+              {mobile? <Swiper className={css.swiperdiv}
+               modules={[Pagination]}
+                pagination={true}
+                loopFillGroupWithBlank={true}
+                slidesPerView={1}
+                spaceBetween={0}
+                slidesPerGroup={1}
+                loop={true}>
+
+                    <SwiperSlide>
+                    <div className={css.box}>
+                      <img src={D1} alt="" />
+                      <span>360-Degree Digital Expertise</span>
+                     <span>We provide a full range of digital branding services, from logo design and captivating social media content to SEO optimization and stunning animations – all in one place.</span>
+                  </div>
+                    </SwiperSlide>
+
+
+                    <SwiperSlide>
+                    <div className={css.box}>
+                      <img src={D2} alt="" />
+                      <span>Creative Brilliance</span>
+                     <span>Our creative team turns your ideas into visual masterpieces, be it a memorable logo, share-worthy social content, or captivating animations.</span>
+                  </div>
+                    </SwiperSlide>
+
+
+                    <SwiperSlide>
+                    <div className={css.box}>
+                      <img src={D3} alt="" />
+                      <span>Digital Marketing Pioneers</span>
+                     <span>In the digital realm, visibility is crucial. We specialize in strategies that shine a spotlight on your brand, from SEO for higher rankings to impactful targeted campaigns.</span>
+                  </div>
+                    </SwiperSlide>
+
+
+                    <SwiperSlide>
+                    <div className={css.box}>
+                      <img src={D4} alt="" />
+                      <span>Cutting-Edge Technology</span>
+                     <span>We stay updated on the latest trends and tech, infusing innovation into our solutions, making your brand stand out in the digital landscape.</span>
+                  </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                         <div className={css.box2}>
+                      <img src={D5} alt="" />
+                      <span>Data-Driven Decisions</span>
+                     <span>We measure, not guess. Our data-driven approach guarantees every decision is backed by insights, resulting in ROI-driven campaigns.</span>
+                  </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                    <div className={css.box2}>
+                      <img src={D6} alt="" />
+                      <span>Tailored to Your Brand</span>
+                     <span>No cookie-cutter solutions here. We delve into your brand's unique identity, crafting strategies and creatives that truly resonate with your target audience.</span>
+                  </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                    <div className={css.box2}>
+                      <img src={D7} alt="" />
+                      <span>Client-Centric Approach</span>
+                     <span>Your brand's success is our top priority. We work collaboratively, ensuring that your vision is at the core of every project we undertake.</span>
+                  </div>
+                    </SwiperSlide>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </Swiper>:
+
               <div className={css.div2contents}>
                   <div className={css.div2contentstop}>
                   <div className={css.box}>
@@ -50,11 +143,7 @@ const DigitalBranding = () => {
                       <span>360-Degree Digital Expertise</span>
                      <span>We provide a full range of digital branding services, from logo design and captivating social media content to SEO optimization and stunning animations – all in one place.</span>
                   </div>
-                  <div className={css.box}>
-                      <img src={D2} alt="" />
-                      <span>Creative Brilliance</span>
-                     <span>Our creative team turns your ideas into visual masterpieces, be it a memorable logo, share-worthy social content, or captivating animations.</span>
-                  </div>
+                  
                   <div className={css.box}>
                       <img src={D3} alt="" />
                       <span>Digital Marketing Pioneers</span>
@@ -93,7 +182,7 @@ const DigitalBranding = () => {
                  
                   
 
-              </div>
+              </div> }
           </div>
          
 

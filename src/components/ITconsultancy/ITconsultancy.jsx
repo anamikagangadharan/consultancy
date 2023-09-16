@@ -17,8 +17,16 @@ import Set2 from "../../assets/itconsultancy/itset2.svg"
 import Set3 from "../../assets/itconsultancy/itset3.svg"
 import { HashLink } from 'react-router-hash-link'
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import {  Pagination } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
 
 const ITconsultancy = () => {
+
+    const mobile= window.innerWidth<=768? true:false
   return (
     <div className={css.container} id='itcs'>
       <div className={css.container1}>
@@ -44,6 +52,76 @@ const ITconsultancy = () => {
                     <span>Transforming Ideas into Intuitive Experiences</span>
                 </div>
 
+                {mobile?   <Swiper className={css.swiperdiv}
+                  modules={[Pagination]}
+                     pagination={true}
+                     loopFillGroupWithBlank={true}
+                     slidesPerView={1}
+                     spaceBetween={0}
+                     slidesPerGroup={1}
+                     loop={true}>
+
+                        <SwiperSlide>
+                        <div className={css.box}>
+                        <img src={D1} alt="" />
+                        <span> Experience and Expertise</span>
+                      <span> Our experienced team has a successful track record across diverse industries and stays updated with the latest trends and technologies.</span>
+                    </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                             <div className={css.box}>
+                        <img src={D2} alt="" />
+                        <span>Client-Centric Approach</span>
+                      <span>Your success is our priority. We listen to your needs, collaborate closely, and deliver solutions that are perfectly tailored to your requirements.</span>
+                    </div>
+
+                        </SwiperSlide>
+
+
+                        <SwiperSlide>
+                        <div className={css.box}>
+                        <img src={D3} alt="" />
+                        <span> Reliability</span>
+                     <span>With invicious, you can count on dependable service and timely delivery. We understand the value of your time and resources.</span>
+                    </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                        <div className={css.box}>
+                        <img src={D4} alt="" />
+                        <span>Data Security</span>
+                      <span>Your data is precious. We implement robust security measures to protect your sensitive information and ensure compliance with industry standards.</span>
+                    </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                        <div className={css.box2}>
+                        <img src={D5} alt="" />
+                        <span>Scalability</span>
+                        <span>Our solutions are designed with growth in mind. We build scalable IT infrastructure that can adapt to your expanding needs.</span>
+                    </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                        <div className={css.box2}>
+                        <img src={D6} alt="" />
+                        <span>Cost Efficiency</span>
+                      <span>We are committed to delivering value. Our services are designed to maximize your ROI, ensuring that your investments in technology yield tangible benefits</span>
+                    </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                        <div className={css.box2}>
+                        <img src={D7} alt="" />
+                        <span>Holistic Approach</span>
+                    <span>We provide comprehensive, long-term IT strategies aligned with your business goals for lasting success in the evolving tech landscape.</span>
+                    </div>
+                        </SwiperSlide>
+
+
+
+          </Swiper> :
                 <div className={css.div2contents}>
                     <div className={css.div2contentstop}>
                     <div className={css.box}>
@@ -94,7 +172,7 @@ const ITconsultancy = () => {
                    
                     
 
-                </div>
+                </div> }
             </div>
            
 
