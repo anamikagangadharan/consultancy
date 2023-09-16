@@ -38,6 +38,17 @@
    padding: 15px;
    border-radius: 4px;
  }
+
+ .swiper-pagination-bullet{
+  background-color: #F07E38 !important;
+  
+  
+}
+.swiper-pagination-bullet-active{
+  width: 24px !important;
+  border-radius: 8px !important;
+  height: 8px !important;
+}
  @media screen and (max-width: 768px){
   .tobtn2{
     bottom: 7px;
