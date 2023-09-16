@@ -161,7 +161,16 @@ letter-spacing: -0.09px;
 }
 
 @media screen and (max-width: 768px){
+    .container{
+        padding: 6% 6%;
+    }
 
+    .div1{
+        gap: 0.4rem;
+    }
+  .line{
+    width: 60px;
+  }
 
     .head>:nth-child(1){
         font-size: 24px;

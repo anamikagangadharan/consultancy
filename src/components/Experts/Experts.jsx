@@ -67,7 +67,7 @@ const Experts = () => {
                 </div>
                 <div className={css.div2bottom}>
 
-          <HashLink ti="/swd/#swd">
+          <HashLink to="/swd/#swd">
                <div className={css.box}>
                 <div className={css.logo}></div>
                     <div className={css.circles}>

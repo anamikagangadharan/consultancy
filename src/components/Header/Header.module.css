@@ -228,6 +228,7 @@ animation-fill-mode: forwards;
   .serviceset > li,
   .rightlist > a {
     font-family: K2D;
+    letter-spacing: 0.5px;
   }
   .servicelist{
     position: static;
