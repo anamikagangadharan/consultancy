@@ -99,9 +99,12 @@ padding: 4% 1%;
 flex-shrink: 0;
 border-radius: 20px;
 border: 1px solid var(--Linear, #D95DB0);
-
 background: #000;
+/* border-image: linear-gradient(to right, #D95DB0, #3344DC);
+border-image-slice: 1;
+background-color: transparent; */
 }
+
 .circle{
   padding: 6%;
     background: #000;

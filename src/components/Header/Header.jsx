@@ -1,13 +1,12 @@
 import React, { useEffect, useState, useRef } from "react";
 import css from "./Header.module.css";
 import Logo from "../../assets/consultancy-logo.svg";
-// import Darrow from "../../assets/droparrow.svg"
 import Bars from "../../assets/bars.svg";
 import { HashLink } from "react-router-hash-link";
-// import { Link } from 'react-router-dom'
 import Close from "../../assets/close.png"
 
 const Header = () => {
+  
   const mobile = window.innerWidth <= 768 ? true : false;
   const [state, setState] = useState(false);
   const [opened, setOpened] = useState(false);
