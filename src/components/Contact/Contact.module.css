@@ -176,9 +176,9 @@ background-clip: text;
 .line>label ,.lastset>label{
     color: #B3B3B3;
     font-family: Nunito;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     line-height: 150%; /* 27px */
     text-transform: capitalize;
 }
@@ -206,7 +206,7 @@ background-clip: text;
     background: rgba(68, 68, 68, 0.50);
     border: none;
     height: 37px;
-    padding: 1% 4%;
+    padding: 1% 1%;
     width: 100%;
     color: #808080;
     outline: none;

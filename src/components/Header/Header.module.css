@@ -63,14 +63,14 @@
   list-style: none;
   color: #e0e0e0;
   font-family: Nunito;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 300;
   text-decoration: none;
 }
 .rightlist > a:hover {
   color: var(--drak-orange, #ed7638);
   font-family: Nunito;
-  font-size: 18px;
+  /* font-size: 18px; */
   font-style: normal;
 
   line-height: normal;
