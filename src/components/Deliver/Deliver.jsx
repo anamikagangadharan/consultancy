@@ -3,6 +3,7 @@ import css from "./Deliver.module.css"
 import Dimage from "../../assets/dimage.svg"
 import Top from "../../assets/Top.svg"
 import Bottom from "../../assets/bottom.svg"
+import { HashLink } from 'react-router-hash-link'
 
 const Deliver = () => {
   return (
@@ -35,7 +36,7 @@ as shown in our previous resounding success.</span>
 
             <div className={css.d4right}>
                 <img  src={Top} alt="" />
-                <button className={css.hirebtn}>Hire Top Developers</button>
+            <HashLink to="/contact/#contactform">  <button className={css.hirebtn}>Hire Top Developers</button>  </HashLink>   
                 <img src={Bottom} alt="" />
             </div>
 

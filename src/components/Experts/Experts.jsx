@@ -7,7 +7,7 @@ import E3 from "../../assets/e3.svg"
 import E4 from "../../assets/e4.svg"
 import E5 from "../../assets/e5.svg"
 import E6 from "../../assets/e6.svg"
-import E7 from "../../assets/e7.svg"
+// import E7 from "../../assets/e7.svg"
 
 
 import { HashLink } from "react-router-hash-link";
@@ -53,6 +53,14 @@ const Experts = () => {
                     </div>  </HashLink>   
 
 
+              
+
+
+
+                </div>
+                <div className={css.div2bottom}>
+
+
                 <HashLink to ="/db/#db">   <div className={css.box}>
                     <div className={css.logo}></div>
                         
@@ -61,11 +69,6 @@ const Experts = () => {
                     </div>
                         <span>Digital Branding</span>
                     </div> </HashLink> 
-
-
-
-                </div>
-                <div className={css.div2bottom}>
 
           <HashLink to="/swd/#swd">
                <div className={css.box}>
@@ -87,13 +90,13 @@ const Experts = () => {
                     </div> </HashLink> 
 
 
-               <HashLink>    <div className={css.box}>
+               {/* <HashLink>    <div className={css.box}>
                     <div className={css.logo}></div>
                     <div className={css.circles}>
                     <img src={E7} alt="" />
                     </div>
                         <span>Application Services</span>
-                    </div> </HashLink> 
+                    </div> </HashLink>  */}
 
 
 

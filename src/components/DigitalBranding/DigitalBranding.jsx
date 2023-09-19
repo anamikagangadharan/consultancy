@@ -143,6 +143,12 @@ const DigitalBranding = () => {
                       <span>360-Degree Digital Expertise</span>
                      <span>We provide a full range of digital branding services, from logo design and captivating social media content to SEO optimization and stunning animations – all in one place.</span>
                   </div>
+
+                  <div className={css.box}>
+                      <img src={D2} alt="" />
+                      <span>Creative Brilliance</span>
+                     <span>Our creative team turns your ideas into visual masterpieces, be it a memorable logo, share-worthy social content, or captivating animations.</span>
+                  </div>
                   
                   <div className={css.box}>
                       <img src={D3} alt="" />
@@ -309,7 +315,7 @@ const DigitalBranding = () => {
 
           <div className={css.d4right}>
               <img  src={Top} alt="" />
-              <button className={css.hirebtn}>Hire Top Developers</button>
+              <HashLink to="/contact/#contactform">  <button className={css.hirebtn}>Hire Top Developers</button>  </HashLink>   
               <img src={Bottom} alt="" />
           </div>
 

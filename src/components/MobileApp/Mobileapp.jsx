@@ -272,7 +272,7 @@ const Mobileapp = () => {
 
           <div className={css.d4right}>
               <img  src={Top} alt="" />
-              <button className={css.hirebtn}>Hire Top Developers</button>
+              <HashLink to="/contact/#contactform">  <button className={css.hirebtn}>Hire Top Developers</button>  </HashLink>   
               <img src={Bottom} alt="" />
           </div>
 

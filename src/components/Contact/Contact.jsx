@@ -45,8 +45,8 @@ const Contact = () => {
             <input   className={css.contactinp}  required type="number" name="number" id=""  placeholder='Enter Your Number'/>
             </div>
             <div className={css.line}>
-            <label  htmlFor="">Company *</label>
-            <input   className={css.contactinp}  required type="text" name="company" id=""  placeholder='Enter Your Company name'/>
+            <label htmlFor="">Country *</label>
+            <input   className={css.contactinp}  required type="text" name="country" id=""  placeholder='Enter Your Country'/>
             </div>
         </div>
         <div className={css.set}>
@@ -60,14 +60,13 @@ const Contact = () => {
   <option className={css.opt} value="Mobile App Development">Mobile App Development</option>
   <option className={css.opt} value="digital Branding Services">Digital Branding Services</option>
   <option className={css.opt} value="Software Development">Software Development</option>
+  <option className={css.opt} value="Career">Career</option>
+  <option className={css.opt} value="Something else">Something else</option>
 
 </select>
           
             </div>
-            <div className={css.line}>
-            <label htmlFor="">Country *</label>
-            <input   className={css.contactinp}  required type="text" name="country" id=""  placeholder='Enter Your Country'/>
-            </div>
+           
         </div>
 
         <div className={css.lastset}>

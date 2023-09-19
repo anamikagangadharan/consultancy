@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     background: #121212;
-    padding: 0 6%;
+    padding: 8% 6%;
 }
 .wrap{
     width: 100%;
@@ -158,6 +158,10 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: -0.09px;
+cursor: pointer;
+}
+.hirebtn:hover{
+    color: #6657AA;
 }
 
 @media screen and (max-width: 768px){

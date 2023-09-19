@@ -64,11 +64,13 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 6rem;
+    /* gap: 6rem; */
+    gap: 0;
 }
 .div2top{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 4%;
 }
 .div2top>:nth-child(2),.div2top>:nth-child(4){
     margin-top: 2.8rem;
@@ -84,7 +86,7 @@
     margin-top: 2.8rem;
 }
 .div2top>a,.div2bottom>a{
-    width: 23%;
+    width: 30%;
 }
 .box{
     display: flex;
@@ -164,8 +166,8 @@ line-height: normal;
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    top: 24px;
-    right: 22%;
+    top: 20px;
+    right: 15%;
     transform: translate(50%, -50%) rotate(-40deg); 
     transition: width 0.5s, height 0.5s, transform 0.5s;
     opacity: 0.7;
@@ -175,8 +177,8 @@ line-height: normal;
   
   .box:hover .logo {
     /* top: -100%; */
-    width: 70px;
-    height: 68px;
+    width: 41px;
+    height: 41px;
     transform: translate(80%, -33%) rotate(0deg);
     /* Adjust rotation as needed */
     opacity: 0.7;

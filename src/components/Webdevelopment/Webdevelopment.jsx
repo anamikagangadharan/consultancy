@@ -233,8 +233,8 @@ const Webdevelopment = () => {
                               <div className={css.oddsetcontent}>
                                  <span>3. E-commerce and Web App Development</span>
                                  <span>Transforming ideas into web app wonders! Our UI/UX experts create web applications that blend aesthetics with functionality for an outstanding user experience. Let us design your digital solution with precision and elegance.</span>
-                                 <span className={css.packagespan}>Our Ultimate Package</span>
-                                    <span className={css.durationspan}>Duration - 2 weeks <br />Quantity - Depending on the application</span>
+                                 {/* <span className={css.packagespan}>Our Ultimate Package</span>
+                                    <span className={css.durationspan}>Duration - 2 weeks <br />Quantity - Depending on the application</span> */}
                               </div>
                               <div className={css.oddsetimage}>
                                   <img src={Set3} alt="" /> 
@@ -304,7 +304,7 @@ const Webdevelopment = () => {
 
           <div className={css.d4right}>
               <img  src={Top} alt="" />
-              <button className={css.hirebtn}>Hire Top Developers</button>
+              <HashLink to="/contact/#contactform">  <button className={css.hirebtn}>Hire Top Developers</button>  </HashLink>   
               <img src={Bottom} alt="" />
           </div>
 

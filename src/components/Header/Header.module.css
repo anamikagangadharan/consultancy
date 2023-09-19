@@ -161,11 +161,13 @@ padding: 0px 24px; */
   line-height: normal;
 }
 .headercontactbtn:hover {
-  cursor: pointer;
+  /* cursor: pointer;
   color: #ed7638;
   background-color: transparent;
   border: 0.2px solid #ed7638;
-  font-weight: 400;
+  font-weight: 400; */
+  background: #EA610D;
+  cursor: pointer;
 }
 
 

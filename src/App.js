@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import BackTo from "../src/assets/backtotop.svg";
+import BackTo from "../src/assets/backtotopnew.svg";
 
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";

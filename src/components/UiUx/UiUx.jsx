@@ -17,7 +17,8 @@ import Set2 from "../../assets/uiux/uiset2.svg"
 import Set3 from "../../assets/uiux/uiset3.svg"
 import Set4 from "../../assets/uiux/uiset4.svg"
 import Set5 from "../../assets/uiux/uiset5.svg"
-import Set6 from "../../assets/uiux/uiset6.svg"
+// import Set6 from "../../assets/uiux/uiset6.svg"
+import Set6 from "../../assets/uiux/newgif.gif"
 
 import { HashLink } from 'react-router-hash-link'
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -229,8 +230,8 @@ const UiUx = () => {
                                    
                                     <span>2. Mobile App Designt</span>
                                      <span>Elevating mobile experiences through UI/UX excellence! We specialize in crafting intuitive and visually appealing mobile apps that engage users and streamline interactions. Trust us to turn your app idea into a delightful, user-friendly reality</span>
-                                     <span className={css.packagespan}>Our Ultimate Package</span>
-                                    <span className={css.durationspan}>Duration - 15-30 days <br />Quantity - Depends on the screen after research</span>
+                                     {/* <span className={css.packagespan}>Our Ultimate Package</span>
+                                    <span className={css.durationspan}>Duration - 15-30 days <br />Quantity - Depends on the screen after research</span> */}
                                 </div>
                             </div>
                             {/* evenset */}
@@ -240,8 +241,8 @@ const UiUx = () => {
                                 <div className={css.oddsetcontent}>
                                    <span>3. Web App Design</span>
                                    <span>Transforming ideas into web app wonders! Our UI/UX experts create web applications that blend aesthetics with functionality for an outstanding user experience. Let us design your digital solution with precision and elegance.</span>
-                                   <span className={css.packagespan}>Our Ultimate Package</span>
-                                    <span className={css.durationspan}>Duration - 2 Weeks <br />Quantity - Depending on the application</span>
+                                   {/* <span className={css.packagespan}>Our Ultimate Package</span>
+                                    <span className={css.durationspan}>Duration - 2 Weeks <br />Quantity - Depending on the application</span> */}
                                 </div>
                                 <div className={css.oddsetimage}>
                                     <img src={Set3} alt="" /> 
@@ -269,8 +270,8 @@ const UiUx = () => {
                                 <div className={css.oddsetcontent}>
                                    <span>5. MVP (Minimum Viable Product)</span>
                                    <span>Launch your product idea quickly and efficiently with our MVP (Minimum Viable Product) UI/UX design. We'll help you create a streamlined and user-focused prototype that captures the essence of your concept, allowing for rapid testing and validation. Get ready to make your mark in the market with our MVP design expertise.</span>
-                                   <span className={css.packagespan}>Our Ultimate Package</span>
-                                    <span className={css.durationspan}>Duration - 5 Weeks <br />Quantity - Depending on the application</span>
+                                   {/* <span className={css.packagespan}>Our Ultimate Package</span>
+                                    <span className={css.durationspan}>Duration - 5 Weeks <br />Quantity - Depending on the application</span> */}
                                 </div>
                                 <div className={css.oddsetimage}>
                                     <img src={Set5} alt="" /> 
@@ -289,8 +290,8 @@ const UiUx = () => {
                                    
                                     <span>6. Website Animation / Motion Graphics</span>
                                     <span>Add a touch of magic to your web presence with our website animation and motion graphics expertise in UI/UX design. Our creative team brings your website to life with captivating animations and dynamic visuals that enhance user engagement and leave a lasting impression. Elevate your online experience with our mesmerizing designs.</span>
-                                    <span className={css.packagespan}>Our Ultimate Package</span>
-                                    <span className={css.durationspan}>Duration - Depends <br />Quantity - Depends</span>
+                                    {/* <span className={css.packagespan}>Our Ultimate Package</span>
+                                    <span className={css.durationspan}>Duration - Depends <br />Quantity - Depends</span> */}
                                 </div>
                             </div>
                             {/* evenset */}
@@ -310,7 +311,7 @@ const UiUx = () => {
 
             <div className={css.d4right}>
                 <img  src={Top} alt="" />
-                <button className={css.hirebtn}>Hire Top Developers</button>
+                <HashLink to="/contact/#contactform">  <button className={css.hirebtn}>Hire Top Developers</button>  </HashLink>   
                 <img src={Bottom} alt="" />
             </div>
 
