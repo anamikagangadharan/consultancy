@@ -265,7 +265,7 @@ background-clip: text;
     justify-content: center;
     align-items: center;
     gap: 25px;
-    border-radius: 40px;
+    border-radius: 8px;
     background: linear-gradient(180deg, #F48A37 5.69%, #ED7638 53.69%);
     border: none;
     color: #FFF;
