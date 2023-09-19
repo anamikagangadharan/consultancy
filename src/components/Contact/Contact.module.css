@@ -195,6 +195,11 @@ background-clip: text;
 
 
 }
+/* .contactinp::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+} */
 .contactinp::placeholder{
     font-family: Nunito;
     font-size: 14px;
@@ -268,11 +273,15 @@ background-clip: text;
     margin: 1%;
     font-weight: 400;
 }
-.subbtn:hover{
+/* .subbtn:hover{
     cursor: pointer;
     color: var(--orange);
     background-color: #fff;
   
+} */
+.subbtn:hover{
+    background: #EA610D;
+    cursor: pointer;
 }
 
 /* formend */

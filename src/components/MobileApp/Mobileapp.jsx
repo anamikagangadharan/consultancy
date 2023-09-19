@@ -16,7 +16,7 @@ import Set1 from "../../assets/mobileapp/mset1.svg"
 import Set2 from "../../assets/mobileapp/mset2.svg"
 import Set3 from "../../assets/mobileapp/mset3.svg"
 
-import Set4new from "../../assets/mobileapp/msetnew4.svg"
+import Set4new from "../../assets/mobileapp/msetnew44.svg"
 import { HashLink } from 'react-router-hash-link'
 
 import { Swiper, SwiperSlide } from "swiper/react";

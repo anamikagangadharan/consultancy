@@ -24,7 +24,7 @@ const Approach = () => {
         <div className={css.div1}>
             <div className={css.line}></div>
             <div className={css.head}>
-          <span>Our Design and Development approach</span>
+          <span>Our Design and Development Approach</span>
         </div>
         </div>
       
@@ -174,6 +174,7 @@ const Approach = () => {
                 </span>
               </div>
             </div>
+           
           </div>
 
             {/* set2 */}

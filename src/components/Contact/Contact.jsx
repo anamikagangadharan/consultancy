@@ -42,7 +42,7 @@ const Contact = () => {
         <div className={css.set}>
             <div className={css.line}>
             <label htmlFor="">Phone number *</label>
-            <input   className={css.contactinp}  required type="number" name="number" id=""  placeholder='Enter Your Number'/>
+            <input   className={css.contactinp}  required  name="number" id=""  placeholder='Enter Your Number'/>
             </div>
             <div className={css.line}>
             <label htmlFor="">Country *</label>

@@ -16,6 +16,8 @@ import Set1 from "../../assets/webdevelopment/wset1.svg"
 import Set2 from "../../assets/webdevelopment/wset2.svg"
 import Set3 from "../../assets/webdevelopment/wset3.svg"
 import Set4 from "../../assets/webdevelopment/wset4.svg"
+import Set5 from "../../assets/webdevelopment/wset5.svg"
+import Set6 from "../../assets/webdevelopment/wset6.svg"
 import { HashLink } from 'react-router-hash-link'
 import { Swiper, SwiperSlide } from "swiper/react";
 import {  Pagination } from "swiper/modules";
@@ -268,7 +270,7 @@ const Webdevelopment = () => {
                                 <li className={css.newli}>Smooth Integration: We seamlessly blend your branding, products, and payments into Shopify for a hassle-free online presence.</li>
                               </div>
                               <div className={css.oddsetimage}>
-                                  <img src={Set3} alt="" /> 
+                                  <img src={Set5} alt="" /> 
 
                               </div>
                           </div>
@@ -278,7 +280,7 @@ const Webdevelopment = () => {
                             {/* evenset */}
                             <div className={css.evenset} id='wp'>
                               <div className={css.evensetimage}>
-                                  <img src={Set4} alt="" />
+                                  <img src={Set6} alt="" />
                               </div>
                               <div className={css.evensetcontent}>
                                  
