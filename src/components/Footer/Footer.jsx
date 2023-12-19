@@ -101,9 +101,9 @@ Empowering Success.</span>
                 </div>
             </div>
 
-            <div className={css.last}> 
+            {/* <div className={css.last}> 
             <img src={Chat} alt="" />
-            </div>
+            </div> */}
 
 
         </div>

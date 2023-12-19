@@ -215,7 +215,7 @@ line-height: 42px; /* 233.333% */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 .oddsetcontent{
     display: flex;
@@ -288,7 +288,7 @@ text-align: left;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 .evensetimage{
     width: 50%;

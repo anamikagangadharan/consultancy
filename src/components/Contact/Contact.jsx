@@ -7,12 +7,14 @@ import css from "./Contact.module.css";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
+
 import { HashLink } from 'react-router-hash-link'
 
 
 
 
 const Contact = () => {
+  const mobile = window.innerWidth <= 768 ? true : false;
   const [formData, setFormData] = useState({
     to_name: '',
     to_email: '',
@@ -26,7 +28,7 @@ const Contact = () => {
 
   // const [countries, setCountries] = useState([]);
   const [filteredCountries, setFilteredCountries] = useState([]);
-  const notify = () => toast.success('Sent Successfully');
+  // const notify = () => toast.success('Sent Successfully');
   const form = useRef();
 
 
@@ -62,9 +64,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    toast.success('Form submitted')
+    
+
     axios
-      // .post('http://localhost:3000/contact', formData) // Use Axios for the POST request
-      .post('http://34.100.169.160/contact', formData) // Use Axios for the POST request
+       .post('http://localhost:3000/contact', formData) // Use Axios for the POST request
+      //.post('http://34.100.169.160/contact', formData) // Use Axios for the POST request
       .then((response) => {
         console.log(response.data);
 
@@ -80,12 +85,16 @@ const Contact = () => {
         });
 
         // Show toast notification
-        notify();
+        // notify();
       })
       .catch((error) => {
         console.error('Error:', error);
       });
+  
   };
+
+
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -159,7 +168,7 @@ const Contact = () => {
               onChange={handleChange}
               className={css.contactinp}
               required
-              type='number'
+              // type='number'
               name='number'
               id='number'
               value={formData.number}
@@ -172,7 +181,7 @@ const Contact = () => {
             <input
               onChange={handleChange}
               className={css.contactinp}
-              required
+              // required
               type='text'
               name='company'
               id='company'
@@ -196,6 +205,7 @@ const Contact = () => {
             <label htmlFor='subject'>Subject *</label>
 
             <select
+             required
               onChange={handleChange}
               className={css.selectinput}
               name='subject'
@@ -203,7 +213,7 @@ const Contact = () => {
               value={formData.subject}
             >
 
-  <option className={css.opt} value="Nil">How Can We Help ?</option>
+  {/* <option className={css.opt} value="Nil">How Can We Help ?</option>  */}
   <option className={css.opt} value="Consultancy service">IT Consultancy Service</option>
   <option className={css.opt} value="Web Design & Development">Web Design & Development</option>
   <option className={css.opt} value="Mobile App Development">Mobile App Development</option>
@@ -213,6 +223,26 @@ const Contact = () => {
   <option className={css.opt} value="Something else">Something else</option>
 
 </select>
+
+
+
+
+
+
+
+
+
+{/* <option className={css.opt} value ="" disabled> How Can We Help?</option>
+  <option className={css.opt} value="iytugugguygyu">IT Consultancy Service</>
+  <option className={css.opt} value=>Web Design & Development</option>
+  <option className={css.opt} value={formData.subject}>Mobile App Developmen>
+  <option className={css.opt} value={formData.subject}>Digital Branding Serv>
+  <option className={css.opt} value={formData.subject}>Software Development<>
+  <option className={css.opt} value={formData.subject}>Career</option>
+  <option className={css.opt} value={formData.subject}>Something else</optio>
+
+</select>
+           */}
           
             
            
@@ -273,23 +303,33 @@ const Contact = () => {
           placeholder='Enter some message here'
           />
         </div>
-        <button type='submit'  className={css.subbtn}>
+   
+       
+        <button  type='submit'  className={css.subbtn}>
            Submit
         </button>
 
-        {formData.to_name.length > 1 &&
+     {mobile ? ( <ToastContainer  style={{ width: '257px', height: '50px', top:"500px", right:"20px" }} autoClose={600}  /> ) :
+    ( <ToastContainer style={{ width: '257px', height: '50px', top:"300px", right:"20px" }} autoClose={600}  /> )}  
+
+     
+
+        {/* {formData.to_name.length > 1 &&
         formData.to_email.length > 1 &&
         formData.company.length > 1 &&
-        formData.number.length > 5 &&
+        formData.number.length > 1 &&
         formData.country.length > 1 ? (
           <ToastContainer style={{ width: '257px', height: '50px' }} autoClose={600} position={'bottom-center'} />
         ) : (
           ''
-        )}
-
+        )} */} 
+      
+     
       </form>
 
                 {/* form end */}
+               
+              
 
             </div> 
         </div>

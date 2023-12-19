@@ -5,10 +5,10 @@ const cors = require('cors');
 const nodemailer = require('nodemailer');
 const path = require('path'); // Import the 'path' module
 const axios = require('axios'); // Import axios
-
-
 const app = express();
 const port = process.env.PORT || 3000;
+const twilio = require('twilio');
+
 
 mongoose.connect('mongodb+srv://admin:anamika_1234@cluster0.lvywqj9.mongodb.net/invicious?retryWrites=true&w=majority', {
   useNewUrlParser: true,
@@ -35,6 +35,10 @@ const subscriptionSchema = new mongoose.Schema({
 
 // Create a model for email subscriptions
 const Subscription = mongoose.model('Subscription', subscriptionSchema);
+
+
+// Initialize twilio
+const twilioClient = twilio('AC8cdf39bfab67cb47dcd9b726c58e7428', 'e14d041bb1f447f499585552cf3bbba1');  //for twilio purpose
 
 app.use(bodyParser.json());
 app.use(cors());
@@ -97,9 +101,9 @@ app.post('/contact', async (req, res) => {
   const mailOptions = {
     from: to_email, // Use the sender's email from the form data
     to: 'anamikadevi.g@invicious.in', // Replace with the recipient email address
-    subject: 'New Message from Contact Form (invcs)',
+    subject: 'ANU',
     text: `
-      Hello Invicious Tech Consultancy,
+      Hello BATCAVE,
   
       You got a new message from "${to_email}"
   
@@ -118,15 +122,27 @@ app.post('/contact', async (req, res) => {
   };
   
   
-  
-
 
   try {
     await transporter.sendMail(mailOptions);
+
+
+
+     // Send SMS using Twilio
+     await twilioClient.messages.create({
+      body: 'Hello batcave.',                                //for twilio purpose 
+      from: '+12402417770',
+      to:'+918925145146', 
+    });
+
+
+
     res.status(200).json({ message: 'Message sent successfully' });
   } catch (error) {
-    console.error('Error sending email:', error);
-    res.status(500).json({ message: 'Failed to send message' });
+    // console.error('Error sending email:', error);
+    console.error('Error sending email and SMS:', error);                 // twilio purpose 
+    // res.status(500).json({ message: 'Failed to send message' });
+    res.status(500).json({ message: 'Failed to send message', error: error.message });
   }
 });
 
@@ -150,19 +166,7 @@ app.post('/contact', async (req, res) => {
 //   }
 // });
 
-
-
-
-
-
-
-
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
-
-
-
-
-
 

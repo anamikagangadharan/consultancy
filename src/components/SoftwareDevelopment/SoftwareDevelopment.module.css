@@ -217,7 +217,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 .oddsetcontent {
   display: flex;
@@ -285,7 +285,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 .evensetimage {
   width: 50%;
@@ -446,6 +446,7 @@
     justify-content: center;
     padding-top: 88px;
     gap: 2rem;
+    height: auto;
   }
 
   .oddsetcontent {
@@ -477,6 +478,7 @@
     justify-content: center;
     padding-top: 88px;
     gap: 2rem;
+    height: auto;
   }
   .evensetcontent {
     width: 100%;
